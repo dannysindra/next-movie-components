@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button Base 1`] = `
+<button
+  className="button button--yellow"
+  onClick={[Function]}
+  type="button"
+>
+  Hello World!
+</button>
+`;

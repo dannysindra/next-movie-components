@@ -1,12 +1,11 @@
 {
   "name": "next-movie-components",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React components for Next Movie website",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "lint:fix": "eslint --fix .",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -26,17 +25,25 @@
   },
   "homepage": "https://github.com/dannysindra/next-movie-components#readme",
   "dependencies": {
+    "classnames": "^2.2.6",
+    "prop-types": "^15.7.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
     "@storybook/addon-actions": "^5.2.1",
     "@storybook/addon-links": "^5.2.1",
+    "@storybook/addon-storyshots": "^5.2.1",
     "@storybook/addons": "^5.2.1",
     "@storybook/react": "^5.2.1",
+    "@testing-library/react": "^9.3.0",
     "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
+    "babel-plugin-macros": "^2.6.1",
     "eslint": "^6.5.1",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.4.0",
@@ -46,8 +53,12 @@
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^1.7.0",
     "husky": "^3.0.8",
+    "jest": "^24.9.0",
+    "jest-transform-css": "^2.0.0",
     "lint-staged": "^9.4.1",
-    "prettier": "1.18.2"
+    "prettier": "1.18.2",
+    "react-test-renderer": "^16.10.2",
+    "require-context.macro": "^1.2.2"
   },
   "husky": {
     "hooks": {
