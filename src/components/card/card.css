@@ -1,0 +1,21 @@
+.card .ant-card-body {
+    color: white;
+    background: black;
+}
+
+.card.card--small {
+    width: 180px;
+}
+.card.card--medium {
+    width: 230px;
+}
+.card.card--large {
+    width: 280px;
+}
+
+.card__meta .ant-card-meta-title {
+    color: white;
+}
+.card__meta .ant-card-meta-description {
+    color: rgba(255,255,255,0.8);
+}

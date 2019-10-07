@@ -1,14 +1,5 @@
-.button {
-    font-size: 0.9em;
-    min-width: 65px;
-    text-decoration: none;
-    padding: 0.3em 0.5em;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-.button--yellow {
-    border: 2px solid #F9B248;
+.button.button--primary {
     background-color: #F9B248;
+    border: 1px solid #F9B248;
     color: #0E2431;
 }
