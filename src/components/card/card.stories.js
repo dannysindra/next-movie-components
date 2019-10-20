@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './card';
+import { Card } from './card';
 
 const props = {
     title: 'Downtown Abbey',
@@ -12,4 +12,12 @@ export default {
     title: 'Card'
 };
 
-export const base = () => <Card {...props} />;
+export const base = () => {
+    return (
+        <>
+            <Card {...props} />
+            <br />
+            <Card {...props} size="large" />
+        </>
+    );
+};

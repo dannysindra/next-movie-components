@@ -1,49 +1,54 @@
 import React from 'react';
-import { Card as BaseCard } from 'antd';
-import classNames from 'classnames';
+import { useStyletron } from 'baseui';
+import { Card as BaseCard, StyledBody } from 'baseui/card';
 import { string, oneOf } from 'prop-types';
 
-import './card.css';
+const mapSizeToWidth = size => {
+    if (size === 'large') {
+        return '280px';
+    }
+    return '230px';
+};
 
-const Card = ({ className, title, posterUrl, releaseDate, size, ...rest }) => {
-    const classes = classNames(
-        'card',
-        {
-            'card--small': size === 'small',
-            'card--medium': size === 'medium',
-            'card--large': size === 'large'
-        },
-        className
-    );
+// https://baseweb.design/components/card/
+// https://github.com/uber/baseweb/tree/master/src/card
+export const Card = ({ title, posterUrl, releaseDate, size, ...rest }) => {
+    const [, theme] = useStyletron();
 
     return (
         <BaseCard
             {...rest}
-            className={classes}
-            hoverable
-            cover={<img alt={title} src={posterUrl} />}
+            overrides={{
+                Root: {
+                    style: ({ $theme }) => ({
+                        backgroundColor: $theme.colors.primary,
+                        width: mapSizeToWidth(size)
+                    })
+                },
+                Title: {
+                    style: ({ $theme }) => ({
+                        color: $theme.colors.mono100
+                    })
+                }
+            }}
+            headerImage={posterUrl}
+            title={title}
         >
-            <BaseCard.Meta
-                className="card__meta"
-                title={title}
-                description={releaseDate}
-            />
+            <StyledBody style={{ color: theme.colors.mono600 }}>
+                {releaseDate}
+            </StyledBody>
         </BaseCard>
     );
 };
 
 Card.propTypes = {
-    className: string,
     title: string.isRequired,
     posterUrl: string,
     releaseDate: string.isRequired,
-    size: oneOf(['small', 'medium', 'large'])
+    size: oneOf(['default', 'large'])
 };
 
 Card.defaultProps = {
-    className: '',
     posterUrl: '',
-    size: 'medium'
+    size: 'default'
 };
-
-export default Card;

@@ -10,6 +10,7 @@ module.exports = {
     parser: 'babel-eslint',
     rules: {
         'import/no-extraneous-dependencies': ['off'],
+        'import/prefer-default-export': ['off'],
         'jsx-a11y/href-no-hash': ['off'],
         'react/jsx-filename-extension': ['warn', { extensions: ['.js'] }],
         'react/jsx-props-no-spreading': ['off']

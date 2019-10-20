@@ -25,11 +25,13 @@
   },
   "homepage": "https://github.com/dannysindra/next-movie-components#readme",
   "dependencies": {
-    "antd": "^3.23.6",
+    "baseui": "^9.7.1",
     "classnames": "^2.2.6",
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "react-dom": "^16.10.2",
+    "styletron-engine-atomic": "^1.4.1",
+    "styletron-react": "^5.2.2"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",

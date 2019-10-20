@@ -1,6 +1,6 @@
 import React from 'react';
 import { cleanup, render } from '@testing-library/react';
-import Button from './button';
+import { Button } from './button';
 
 // automatically unmount and cleanup DOM after the test is finished.
 afterEach(cleanup);
