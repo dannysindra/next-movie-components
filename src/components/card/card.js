@@ -4,10 +4,13 @@ import { Card as BaseCard, StyledBody } from 'baseui/card';
 import { string, oneOf } from 'prop-types';
 
 const mapSizeToWidth = size => {
-    if (size === 'large') {
-        return '280px';
+    if (size === 'small') {
+        return '200px';
     }
-    return '230px';
+    if (size === 'large') {
+        return '300px';
+    }
+    return '250px';
 };
 
 // https://baseweb.design/components/card/
@@ -17,7 +20,6 @@ export const Card = ({ title, posterUrl, releaseDate, size, ...rest }) => {
 
     return (
         <BaseCard
-            {...rest}
             overrides={{
                 Root: {
                     style: ({ $theme }) => ({
@@ -27,12 +29,15 @@ export const Card = ({ title, posterUrl, releaseDate, size, ...rest }) => {
                 },
                 Title: {
                     style: ({ $theme }) => ({
+                        ...(size === 'small' && $theme.typography.font350),
+                        ...(size === 'medium' && $theme.typography.font400),
                         color: $theme.colors.mono100
                     })
                 }
             }}
             headerImage={posterUrl}
             title={title}
+            {...rest}
         >
             <StyledBody style={{ color: theme.colors.mono600 }}>
                 {releaseDate}
@@ -45,10 +50,10 @@ Card.propTypes = {
     title: string.isRequired,
     posterUrl: string,
     releaseDate: string.isRequired,
-    size: oneOf(['default', 'large'])
+    size: oneOf(['small', 'medium', 'large'])
 };
 
 Card.defaultProps = {
     posterUrl: '',
-    size: 'default'
+    size: 'medium'
 };

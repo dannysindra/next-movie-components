@@ -12,12 +12,25 @@ export default {
     title: 'Card'
 };
 
-export const base = () => {
+export const size = () => {
     return (
-        <>
-            <Card {...props} />
-            <br />
-            <Card {...props} size="large" />
-        </>
+        <table>
+            <tbody>
+                <tr>
+                    <td>
+                        <p>Small</p>
+                        <Card {...props} size="small" />
+                    </td>
+                    <td>
+                        <p>Medium</p>
+                        <Card {...props} />
+                    </td>
+                    <td>
+                        <p>Large</p>
+                        <Card {...props} size="large" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     );
 };

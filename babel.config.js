@@ -1,10 +1,4 @@
 module.exports = {
-    plugins: [
-        'macros',
-        [
-            'import',
-            { libraryName: 'antd', libraryDirectory: 'es', style: 'css' }
-        ]
-    ],
+    plugins: ['macros'],
     presets: ['@babel/preset-env', '@babel/preset-react']
 };

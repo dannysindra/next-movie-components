@@ -25,9 +25,9 @@ const mapButtonSize = size => {
 // https://github.com/uber/baseweb/blob/master/src/button/styled-components.js
 export const Button = ({ children, size, type, variant, ...rest }) => (
     <BaseButton
-        {...rest}
         size={mapButtonSize(size)}
         kind={mapButtonVariantToKind(variant)}
+        {...rest}
     >
         {children}
     </BaseButton>

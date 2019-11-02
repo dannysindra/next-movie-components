@@ -24,8 +24,10 @@ export const variant = () => (
 
 export const size = () => (
     <>
-        <Button {...actions}>Default</Button>
-        <Button {...actions} size="large">
+        <Button {...actions} variant="secondary">
+            Default
+        </Button>
+        <Button {...actions} variant="primary" size="large">
             Large
         </Button>
     </>
