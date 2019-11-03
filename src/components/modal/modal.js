@@ -22,7 +22,6 @@ const mapSize = size => {
 export const Modal = ({ children, size, title, ...rest }) => (
     <BaseModal
         animate
-        autofocus={false}
         closeable
         size={mapSize(size)}
         role={ROLE.dialog}
