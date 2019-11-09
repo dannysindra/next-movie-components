@@ -6,3 +6,4 @@ debug
 package-lock.json
 .vscode
 docs
+dist
