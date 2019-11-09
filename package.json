@@ -1,17 +1,21 @@
 {
   "name": "next-movie-components",
-  "version": "0.1.9",
+  "version": "0.1.12",
   "description": "React components for Next Movie website",
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "files": [ "dist", "README.md" ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "lint": "eslint .",
     "test": "jest",
     "update-snapshot": "jest --updateSnapshot",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -c .storybook -o docs",
-    "publish:npm": "rm -rf dist && mkdir dist && babel ./src/components -d dist --copy-files"
+    "transpile": "rm -rf dist && mkdir dist && babel ./src/components -d dist --copy-files",
+    "prepublishOnly": "npm run build-storybook && npm run transpile"
   },
   "repository": {
     "type": "git",
@@ -28,15 +32,6 @@
     "url": "https://github.com/dannysindra/next-movie-components/issues"
   },
   "homepage": "https://github.com/dannysindra/next-movie-components#readme",
-  "dependencies": {
-    "baseui": "^9.7.1",
-    "classnames": "^2.2.6",
-    "prop-types": "^15.7.2",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
-    "styletron-engine-atomic": "^1.4.1",
-    "styletron-react": "^5.2.2"
-  },
   "devDependencies": {
     "@babel/cli": "^7.7.0",
     "@babel/core": "^7.6.2",
@@ -52,8 +47,9 @@
     "@testing-library/react": "^9.3.0",
     "babel-eslint": "^10.0.3",
     "babel-jest": "^24.9.0",
-    "babel-loader": "^8.0.6",
+    "babel-loader": "^8.0.0",
     "babel-plugin-macros": "^2.6.1",
+    "baseui": "^9.16.0",
     "eslint": "^6.5.1",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-prettier": "^6.4.0",
@@ -67,8 +63,18 @@
     "jest-transform-css": "^2.0.0",
     "lint-staged": "^9.4.1",
     "prettier": "1.18.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
     "react-test-renderer": "^16.10.2",
-    "require-context.macro": "^1.2.2"
+    "require-context.macro": "^1.2.2",
+    "styletron-engine-atomic": "^1.4.4",
+    "styletron-react": "^5.2.5"
+  },
+  "peerDependencies": {
+    "react": ">= 16.11.0",
+    "react-dom": ">= 16.11.0",
+    "styletron-react": "^5.2.5"
   },
   "husky": {
     "hooks": {
