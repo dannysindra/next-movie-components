@@ -1,7 +1,8 @@
 import React from 'react';
 import { useStyletron } from 'baseui';
 import SearchIcon from 'baseui/icon/search';
-import { Input as BaseInput } from 'baseui/input';
+import { Input as BaseInput, SIZE } from 'baseui/input';
+import { oneOf } from 'prop-types';
 
 const Before = () => {
     const [useCss, theme] = useStyletron();
@@ -25,13 +26,34 @@ const Input = {
     }
 };
 
+const mapSize = size => {
+    if (size === 'medium') {
+        return SIZE.default;
+    }
+    if (size === 'large') {
+        return SIZE.large;
+    }
+    return SIZE.compact;
+};
+
 // https://baseweb.design/components/input/
-export const Search = props => (
-    <BaseInput
-        overrides={{
-            Before,
-            Input
-        }}
-        {...props}
-    />
-);
+export const Search = ({ size, ...rest }) => {
+    return (
+        <BaseInput
+            overrides={{
+                Before,
+                Input
+            }}
+            size={mapSize(size)}
+            {...rest}
+        />
+    );
+};
+
+Search.propTypes = {
+    size: oneOf(['default', 'medium', 'large'])
+};
+
+Search.defaultProps = {
+    size: 'default'
+};
