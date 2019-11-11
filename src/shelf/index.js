@@ -1,1 +1,0 @@
-export { Shelf } from './shelf';

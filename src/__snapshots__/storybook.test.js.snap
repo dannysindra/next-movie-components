@@ -77,29 +77,25 @@ Array [
               Small
             </p>
             <div
-              className="bu bv bw bx b3 b1 b4 b2 by ap bz"
+              className="bt bu bv bw b3 b1 b4 b2 bx ap by"
               data-baseweb="card"
               onClick={[Function]}
             >
               <img
-                className="b3 b1 c0 c1"
-                src="https://image.tmdb.org/t/p/w500/pWt1iRuhNpeVDNP2QiUT2C5OiBt.jpg"
+                className="b3 b1 bz c0"
+                src="https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"
               />
               <div
-                className="c2 c3 c4 c5"
+                className="c1 c2 c3 c4"
               >
                 <h1
-                  className="ax ay az b0 c6 at au av c7 c8 c9 ca cb cc"
+                  className="ax ay az b0 c5 at au av c6 c7 c8 c9 ca cb"
                 >
-                  September 20
+                  July 26
                 </h1>
                 <div
-                  className="cd ce ax cf cg ch"
-                >
-                  <div
-                    className="bt cd ce ax cf cg ch"
-                  />
-                </div>
+                  className="cc cd ax ce cf cg"
+                />
               </div>
             </div>
           </td>
@@ -108,29 +104,25 @@ Array [
               Medium
             </p>
             <div
-              className="bu bv bw bx b3 b1 b4 b2 by ap ci"
+              className="bt bu bv bw b3 b1 b4 b2 bx ap ch"
               data-baseweb="card"
               onClick={[Function]}
             >
               <img
-                className="b3 b1 c0 c1"
-                src="https://image.tmdb.org/t/p/w500/pWt1iRuhNpeVDNP2QiUT2C5OiBt.jpg"
+                className="b3 b1 bz c0"
+                src="https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"
               />
               <div
-                className="c2 c3 c4 c5"
+                className="c1 c2 c3 c4"
               >
                 <h1
-                  className="ax cj cg bo c6 at au av c7 c8 c9 ca cb cc"
+                  className="ax ci cf bo c5 at au av c6 c7 c8 c9 ca cb"
                 >
-                  September 20
+                  July 26
                 </h1>
                 <div
-                  className="cd ce ax cf cg ch"
-                >
-                  <div
-                    className="bt cd ce ax cf cg ch"
-                  />
-                </div>
+                  className="cc cd ax ce cf cg"
+                />
               </div>
             </div>
           </td>
@@ -139,35 +131,247 @@ Array [
               Large
             </p>
             <div
-              className="bu bv bw bx b3 b1 b4 b2 by ap ck"
+              className="bt bu bv bw b3 b1 b4 b2 bx ap cj"
               data-baseweb="card"
               onClick={[Function]}
             >
               <img
-                className="b3 b1 c0 c1"
-                src="https://image.tmdb.org/t/p/w500/pWt1iRuhNpeVDNP2QiUT2C5OiBt.jpg"
+                className="b3 b1 bz c0"
+                src="https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"
               />
               <div
-                className="c2 c3 c4 c5"
+                className="c1 c2 c3 c4"
               >
                 <h1
-                  className="ax bn az bo c6 at au av c7 c8 c9 ca cb cc"
+                  className="ax bn az bo c5 at au av c6 c7 c8 c9 ca cb"
                 >
-                  September 20
+                  July 26
                 </h1>
                 <div
-                  className="cd ce ax cf cg ch"
-                >
-                  <div
-                    className="bt cd ce ax cf cg ch"
-                  />
-                </div>
+                  className="cc cd ax ce cf cg"
+                />
               </div>
             </div>
           </td>
         </tr>
       </tbody>
     </table>
+  </div>,
+  <div
+    className=""
+  />,
+]
+`;
+
+exports[`Storyshots Deck Base 1`] = `
+Array [
+  <div
+    className=""
+  >
+    <div
+      className="ck cl cm cn"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+    >
+      <ul
+        className="co cp cq ck cr cs ct cu cv cw cx"
+      >
+        <li
+          className="cy cz"
+        >
+          <div
+            className="bt bu bv bw b3 b1 b4 b2 bx ap by"
+            data-baseweb="card"
+            onClick={[Function]}
+          >
+            <img
+              className="b3 b1 bz c0"
+              src="https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"
+            />
+            <div
+              className="c1 c2 c3 c4"
+            >
+              <h1
+                className="ax ay az b0 c5 at au av c6 c7 c8 c9 ca cb"
+              >
+                July 26
+              </h1>
+              <div
+                className="cc cd ax ce cf cg"
+              />
+            </div>
+          </div>
+        </li>
+        <li
+          className="cy cz"
+        >
+          <div
+            className="bt bu bv bw b3 b1 b4 b2 bx ap by"
+            data-baseweb="card"
+            onClick={[Function]}
+          >
+            <img
+              className="b3 b1 bz c0"
+              src="https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"
+            />
+            <div
+              className="c1 c2 c3 c4"
+            >
+              <h1
+                className="ax ay az b0 c5 at au av c6 c7 c8 c9 ca cb"
+              >
+                July 26
+              </h1>
+              <div
+                className="cc cd ax ce cf cg"
+              />
+            </div>
+          </div>
+        </li>
+        <li
+          className="cy cz"
+        >
+          <div
+            className="bt bu bv bw b3 b1 b4 b2 bx ap by"
+            data-baseweb="card"
+            onClick={[Function]}
+          >
+            <img
+              className="b3 b1 bz c0"
+              src="https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"
+            />
+            <div
+              className="c1 c2 c3 c4"
+            >
+              <h1
+                className="ax ay az b0 c5 at au av c6 c7 c8 c9 ca cb"
+              >
+                July 26
+              </h1>
+              <div
+                className="cc cd ax ce cf cg"
+              />
+            </div>
+          </div>
+        </li>
+        <li
+          className="cy cz"
+        >
+          <div
+            className="bt bu bv bw b3 b1 b4 b2 bx ap by"
+            data-baseweb="card"
+            onClick={[Function]}
+          >
+            <img
+              className="b3 b1 bz c0"
+              src="https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"
+            />
+            <div
+              className="c1 c2 c3 c4"
+            >
+              <h1
+                className="ax ay az b0 c5 at au av c6 c7 c8 c9 ca cb"
+              >
+                July 26
+              </h1>
+              <div
+                className="cc cd ax ce cf cg"
+              />
+            </div>
+          </div>
+        </li>
+        <li
+          className="cy cz"
+        >
+          <div
+            className="bt bu bv bw b3 b1 b4 b2 bx ap by"
+            data-baseweb="card"
+            onClick={[Function]}
+          >
+            <img
+              className="b3 b1 bz c0"
+              src="https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"
+            />
+            <div
+              className="c1 c2 c3 c4"
+            >
+              <h1
+                className="ax ay az b0 c5 at au av c6 c7 c8 c9 ca cb"
+              >
+                July 26
+              </h1>
+              <div
+                className="cc cd ax ce cf cg"
+              />
+            </div>
+          </div>
+        </li>
+        <li
+          className="cy cz"
+        >
+          <div
+            className="bt bu bv bw b3 b1 b4 b2 bx ap by"
+            data-baseweb="card"
+            onClick={[Function]}
+          >
+            <img
+              className="b3 b1 bz c0"
+              src="https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"
+            />
+            <div
+              className="c1 c2 c3 c4"
+            >
+              <h1
+                className="ax ay az b0 c5 at au av c6 c7 c8 c9 ca cb"
+              >
+                July 26
+              </h1>
+              <div
+                className="cc cd ax ce cf cg"
+              />
+            </div>
+          </div>
+        </li>
+        <li
+          className="cy cz"
+        >
+          <div
+            className="bt bu bv bw b3 b1 b4 b2 bx ap by"
+            data-baseweb="card"
+            onClick={[Function]}
+          >
+            <img
+              className="b3 b1 bz c0"
+              src="https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"
+            />
+            <div
+              className="c1 c2 c3 c4"
+            >
+              <h1
+                className="ax ay az b0 c5 at au av c6 c7 c8 c9 ca cb"
+              >
+                July 26
+              </h1>
+              <div
+                className="cc cd ax ce cf cg"
+              />
+            </div>
+          </div>
+        </li>
+      </ul>
+      <button
+        className="d0 d1 d2 ap d3 d4 d5 d6 ci d7 d8 d9 da db"
+        onClick={[Function]}
+      >
+        &lt;
+      </button>
+      <button
+        className="d0 d1 d2 ap d3 d4 d5 d6 ci d7 d8 d9 da dc"
+        onClick={[Function]}
+      >
+        &gt;
+      </button>
+    </div>
   </div>,
   <div
     className=""
@@ -221,18 +425,18 @@ Array [
     className=""
   >
     <div
-      className="ax cf cg ch b9 cl cm"
+      className="ax ce cf cg b9 cs ck"
       data-baseweb="input"
     >
       <div
-        className="cn cl cm co bv cp an ao b3 b4 b1 b2 ax cf cg ch b9 cq bj"
+        className="cz cs ck dd bu de an ao b3 b4 b1 b2 ax ce cf cg b9 df bj"
         data-baseweb="base-input"
       >
         <div
-          className="cl af b7"
+          className="cs af b7"
         >
           <svg
-            className="cr cs ct cu cv"
+            className="dg dh di dj dk"
             data-baseweb="icon"
             viewBox="0 0 24 24"
           >
@@ -253,7 +457,7 @@ Array [
           aria-labelledby={null}
           aria-required={false}
           autoComplete="on"
-          className="cn ba ah ai ak cm c1 cw cx b5 b6 cy cz ax cf cg ch b9 d0 d1"
+          className="cz ba ah ai ak ck c0 dl dm b5 b6 dn do ax ce cf cg b9 dp dq"
           disabled={false}
           inputMode="text"
           name=""
@@ -273,18 +477,18 @@ Array [
     </div>
     <br />
     <div
-      className="ax ay cg b0 b9 cl cm"
+      className="ax ay cf b0 b9 cs ck"
       data-baseweb="input"
     >
       <div
-        className="cn cl cm co bv cp an ao b3 b4 b1 b2 ax ay cg b0 b9 cq bj"
+        className="cz cs ck dd bu de an ao b3 b4 b1 b2 ax ay cf b0 b9 df bj"
         data-baseweb="base-input"
       >
         <div
-          className="cl af b7"
+          className="cs af b7"
         >
           <svg
-            className="cr cs ct cu cv"
+            className="dg dh di dj dk"
             data-baseweb="icon"
             viewBox="0 0 24 24"
           >
@@ -305,7 +509,7 @@ Array [
           aria-labelledby={null}
           aria-required={false}
           autoComplete="on"
-          className="cn ba ah ai ak cm c1 cw cx d2 d3 d4 d5 ax ay cg b0 b9 d0 d1"
+          className="cz ba ah ai ak ck c0 dl dm dr ds dt du ax ay cf b0 b9 dp dq"
           disabled={false}
           inputMode="text"
           name=""
@@ -325,18 +529,18 @@ Array [
     </div>
     <br />
     <div
-      className="ax cj cg bo b9 cl cm"
+      className="ax ci cf bo b9 cs ck"
       data-baseweb="input"
     >
       <div
-        className="cn cl cm co bv cp an ao b3 b4 b1 b2 ax cj cg bo b9 cq bj"
+        className="cz cs ck dd bu de an ao b3 b4 b1 b2 ax ci cf bo b9 df bj"
         data-baseweb="base-input"
       >
         <div
-          className="cl af b7"
+          className="cs af b7"
         >
           <svg
-            className="cr cs ct cu cv"
+            className="dg dh di dj dk"
             data-baseweb="icon"
             viewBox="0 0 24 24"
           >
@@ -357,7 +561,7 @@ Array [
           aria-labelledby={null}
           aria-required={false}
           autoComplete="on"
-          className="cn ba ah ai ak cm c1 cw cx bp bq d6 d7 ax cj cg bo b9 d0 d1"
+          className="cz ba ah ai ak ck c0 dl dm bp bq dv dw ax ci cf bo b9 dp dq"
           disabled={false}
           inputMode="text"
           name=""
@@ -374,250 +578,6 @@ Array [
           type="text"
         />
       </div>
-    </div>
-  </div>,
-  <div
-    className=""
-  />,
-]
-`;
-
-exports[`Storyshots Shelf Base 1`] = `
-Array [
-  <div
-    className=""
-  >
-    <div
-      className="cm d8 d9 da"
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-    >
-      <ul
-        className="db dc dd cm de cl df dg dh di dj dk dl"
-      >
-        <li
-          className="dm cn"
-        >
-          <div
-            className="bu bv bw bx b3 b1 b4 b2 by ap bz"
-            data-baseweb="card"
-            onClick={[Function]}
-          >
-            <img
-              className="b3 b1 c0 c1"
-              src="https://image.tmdb.org/t/p/w500/pWt1iRuhNpeVDNP2QiUT2C5OiBt.jpg"
-            />
-            <div
-              className="c2 c3 c4 c5"
-            >
-              <h1
-                className="ax ay az b0 c6 at au av c7 c8 c9 ca cb cc"
-              >
-                September 20
-              </h1>
-              <div
-                className="cd ce ax cf cg ch"
-              >
-                <div
-                  className="bt cd ce ax cf cg ch"
-                />
-              </div>
-            </div>
-          </div>
-        </li>
-        <li
-          className="dm cn"
-        >
-          <div
-            className="bu bv bw bx b3 b1 b4 b2 by ap bz"
-            data-baseweb="card"
-            onClick={[Function]}
-          >
-            <img
-              className="b3 b1 c0 c1"
-              src="https://image.tmdb.org/t/p/w500/pWt1iRuhNpeVDNP2QiUT2C5OiBt.jpg"
-            />
-            <div
-              className="c2 c3 c4 c5"
-            >
-              <h1
-                className="ax ay az b0 c6 at au av c7 c8 c9 ca cb cc"
-              >
-                September 20
-              </h1>
-              <div
-                className="cd ce ax cf cg ch"
-              >
-                <div
-                  className="bt cd ce ax cf cg ch"
-                />
-              </div>
-            </div>
-          </div>
-        </li>
-        <li
-          className="dm cn"
-        >
-          <div
-            className="bu bv bw bx b3 b1 b4 b2 by ap bz"
-            data-baseweb="card"
-            onClick={[Function]}
-          >
-            <img
-              className="b3 b1 c0 c1"
-              src="https://image.tmdb.org/t/p/w500/pWt1iRuhNpeVDNP2QiUT2C5OiBt.jpg"
-            />
-            <div
-              className="c2 c3 c4 c5"
-            >
-              <h1
-                className="ax ay az b0 c6 at au av c7 c8 c9 ca cb cc"
-              >
-                September 20
-              </h1>
-              <div
-                className="cd ce ax cf cg ch"
-              >
-                <div
-                  className="bt cd ce ax cf cg ch"
-                />
-              </div>
-            </div>
-          </div>
-        </li>
-        <li
-          className="dm cn"
-        >
-          <div
-            className="bu bv bw bx b3 b1 b4 b2 by ap bz"
-            data-baseweb="card"
-            onClick={[Function]}
-          >
-            <img
-              className="b3 b1 c0 c1"
-              src="https://image.tmdb.org/t/p/w500/pWt1iRuhNpeVDNP2QiUT2C5OiBt.jpg"
-            />
-            <div
-              className="c2 c3 c4 c5"
-            >
-              <h1
-                className="ax ay az b0 c6 at au av c7 c8 c9 ca cb cc"
-              >
-                September 20
-              </h1>
-              <div
-                className="cd ce ax cf cg ch"
-              >
-                <div
-                  className="bt cd ce ax cf cg ch"
-                />
-              </div>
-            </div>
-          </div>
-        </li>
-        <li
-          className="dm cn"
-        >
-          <div
-            className="bu bv bw bx b3 b1 b4 b2 by ap bz"
-            data-baseweb="card"
-            onClick={[Function]}
-          >
-            <img
-              className="b3 b1 c0 c1"
-              src="https://image.tmdb.org/t/p/w500/pWt1iRuhNpeVDNP2QiUT2C5OiBt.jpg"
-            />
-            <div
-              className="c2 c3 c4 c5"
-            >
-              <h1
-                className="ax ay az b0 c6 at au av c7 c8 c9 ca cb cc"
-              >
-                September 20
-              </h1>
-              <div
-                className="cd ce ax cf cg ch"
-              >
-                <div
-                  className="bt cd ce ax cf cg ch"
-                />
-              </div>
-            </div>
-          </div>
-        </li>
-        <li
-          className="dm cn"
-        >
-          <div
-            className="bu bv bw bx b3 b1 b4 b2 by ap bz"
-            data-baseweb="card"
-            onClick={[Function]}
-          >
-            <img
-              className="b3 b1 c0 c1"
-              src="https://image.tmdb.org/t/p/w500/pWt1iRuhNpeVDNP2QiUT2C5OiBt.jpg"
-            />
-            <div
-              className="c2 c3 c4 c5"
-            >
-              <h1
-                className="ax ay az b0 c6 at au av c7 c8 c9 ca cb cc"
-              >
-                September 20
-              </h1>
-              <div
-                className="cd ce ax cf cg ch"
-              >
-                <div
-                  className="bt cd ce ax cf cg ch"
-                />
-              </div>
-            </div>
-          </div>
-        </li>
-        <li
-          className="dm cn"
-        >
-          <div
-            className="bu bv bw bx b3 b1 b4 b2 by ap bz"
-            data-baseweb="card"
-            onClick={[Function]}
-          >
-            <img
-              className="b3 b1 c0 c1"
-              src="https://image.tmdb.org/t/p/w500/pWt1iRuhNpeVDNP2QiUT2C5OiBt.jpg"
-            />
-            <div
-              className="c2 c3 c4 c5"
-            >
-              <h1
-                className="ax ay az b0 c6 at au av c7 c8 c9 ca cb cc"
-              >
-                September 20
-              </h1>
-              <div
-                className="cd ce ax cf cg ch"
-              >
-                <div
-                  className="bt cd ce ax cf cg ch"
-                />
-              </div>
-            </div>
-          </div>
-        </li>
-      </ul>
-      <button
-        className="dn do dp ap dq dr ds dt cj du dv dw dx dy"
-        onClick={[Function]}
-      >
-        &lt;
-      </button>
-      <button
-        className="dn do dp ap dq dr ds dt cj du dv dw dx dz"
-        onClick={[Function]}
-      >
-        &gt;
-      </button>
     </div>
   </div>,
   <div

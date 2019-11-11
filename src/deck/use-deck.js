@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import $ from 'jquery';
 
-export const useShelf = ref => {
+export const useDeck = ref => {
     const [previousVisible, setPreviousVisibility] = useState(false);
     const [nextVisible, setNextVisibility] = useState(false);
     const [scrolling, setScrolling] = useState(false);

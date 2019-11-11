@@ -16,13 +16,13 @@ const mapSizeToWidth = size => {
 // https://baseweb.design/components/card/
 // https://github.com/uber/baseweb/tree/master/src/card
 export const Card = ({ onClick, content, size, ...rest }) => {
-    const [useCss, theme] = useStyletron();
-    const grayColor = useCss({ color: theme.colors.mono600 });
+    const [, theme] = useStyletron();
 
     const Root = {
         style: ({ $theme }) => ({
             ...(onClick && { cursor: 'pointer' }),
             backgroundColor: $theme.colors.primary,
+            borderWidth: '0 0 1px 0',
             width: mapSizeToWidth(size)
         })
     };
@@ -36,9 +36,26 @@ export const Card = ({ onClick, content, size, ...rest }) => {
         })
     };
 
+    const Contents = {
+        style: ({ $theme }) => ({
+            marginTop: $theme.sizing.scale400,
+            marginRight: $theme.sizing.scale800,
+            marginBottom: $theme.sizing.scale200,
+            marginLeft: $theme.sizing.scale800
+        })
+    };
+
     return (
-        <BaseCard overrides={{ Root, Title }} onClick={onClick} {...rest}>
-            <StyledBody className={grayColor}>{content}</StyledBody>
+        <BaseCard
+            overrides={{ Root, Title, Contents }}
+            onClick={onClick}
+            {...rest}
+        >
+            {content && (
+                <StyledBody style={{ color: theme.colors.mono600 }}>
+                    {content}
+                </StyledBody>
+            )}
         </BaseCard>
     );
 };

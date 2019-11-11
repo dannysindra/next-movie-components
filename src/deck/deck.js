@@ -8,9 +8,9 @@ import {
     NextButton,
     PreviousButton
 } from './styled';
-import { useShelf } from './use-shelf';
+import { useDeck } from './use-deck';
 
-export const Shelf = ({ children }) => {
+export const Deck = ({ children }) => {
     const ref = useRef();
     const {
         previousVisible,
@@ -19,7 +19,7 @@ export const Shelf = ({ children }) => {
         onClickNext,
         onMouseOver,
         onMouseLeave
-    } = useShelf(ref);
+    } = useDeck(ref);
 
     return (
         <Root onMouseEnter={onMouseOver} onMouseLeave={onMouseLeave}>
@@ -41,6 +41,6 @@ export const Shelf = ({ children }) => {
     );
 };
 
-Shelf.propTypes = {
+Deck.propTypes = {
     children: oneOfType([node, arrayOf(node)]).isRequired
 };

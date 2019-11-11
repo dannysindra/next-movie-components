@@ -32,14 +32,14 @@ export const NextButton = styled('button', ({ $visible }) => ({
 }));
 
 export const ListItem = styled('li', {
-    marginRight: '5px',
+    marginRight: '15px',
     boxSizing: 'border-box'
 });
 
 export const ListContainer = styled('ul', {
     listStyleType: 'none',
-    margin: '0 auto',
-    padding: '0',
+    margin: '0 auto -15px auto',
+    padding: '0 0 15px 0',
     width: '100%',
     height: '100%',
     display: 'flex',
@@ -47,8 +47,6 @@ export const ListContainer = styled('ul', {
     overflowY: 'hidden',
     scrollbarWidth: 'none' /* Firefox */,
     '-ms-overflow-style': 'none' /* Internet Explorer 10+ */,
-    paddingBottom: '15px',
-    marginBottom: '-15px',
     transition: 'transform .5s ease-in'
 });
 

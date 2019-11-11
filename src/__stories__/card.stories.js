@@ -3,10 +3,10 @@ import { action } from '@storybook/addon-actions';
 import { Card } from '../card';
 
 const props = {
-    title: 'September 20',
+    title: 'July 26',
     onClick: action('onClick'),
     headerImage:
-        'https://image.tmdb.org/t/p/w500/pWt1iRuhNpeVDNP2QiUT2C5OiBt.jpg'
+        'https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg'
 };
 
 export default {

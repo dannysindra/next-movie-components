@@ -1,22 +1,22 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
 import { Card } from '../card';
-import { Shelf } from '../shelf';
+import { Deck } from '../deck';
 
 export default {
-    title: 'Shelf'
+    title: 'Deck'
 };
 
 const props = {
     onClick: action('onClick'),
-    title: 'September 20',
+    title: 'July 26',
     headerImage:
-        'https://image.tmdb.org/t/p/w500/pWt1iRuhNpeVDNP2QiUT2C5OiBt.jpg'
+        'https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg'
 };
 
 export const base = () => {
     return (
-        <Shelf>
+        <Deck>
             <Card {...props} size="small" />
             <Card {...props} size="small" />
             <Card {...props} size="small" />
@@ -24,6 +24,6 @@ export const base = () => {
             <Card {...props} size="small" />
             <Card {...props} size="small" />
             <Card {...props} size="small" />
-        </Shelf>
+        </Deck>
     );
 };
