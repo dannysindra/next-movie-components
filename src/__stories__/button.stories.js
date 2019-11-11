@@ -1,7 +1,7 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
 
-import { Button } from '../components/button';
+import { Button } from '../button';
 
 const actions = {
     onClick: action('clicked')

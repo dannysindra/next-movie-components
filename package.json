@@ -1,6 +1,6 @@
 {
   "name": "next-movie-components",
-  "version": "0.1.13",
+  "version": "0.2.0",
   "description": "React components for Next Movie website",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -14,7 +14,7 @@
     "update-snapshot": "jest --updateSnapshot",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -c .storybook -o docs",
-    "transpile": "rm -rf dist && mkdir dist && babel ./src/components -d dist --copy-files",
+    "transpile": "rm -rf dist && mkdir dist && babel ./src -d dist --ignore ./src/__snapshots__,./src/__stories__,./src/__tests__,./src/storybook.test.js",
     "prepublishOnly": "npm run build-storybook && npm run transpile"
   },
   "repository": {
@@ -87,5 +87,8 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
   }
 }
