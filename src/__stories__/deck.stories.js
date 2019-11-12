@@ -17,13 +17,13 @@ const props = {
 export const base = () => {
     return (
         <Deck>
-            <Card {...props} size="small" />
-            <Card {...props} size="small" />
-            <Card {...props} size="small" />
-            <Card {...props} size="small" />
-            <Card {...props} size="small" />
-            <Card {...props} size="small" />
-            <Card {...props} size="small" />
+            <Card {...props} />
+            <Card {...props} />
+            <Card {...props} />
+            <Card {...props} />
+            <Card {...props} />
+            <Card {...props} />
+            <Card {...props} />
         </Deck>
     );
 };
