@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card as BaseCard, StyledBody } from 'baseui/card';
-import { func, node, string } from 'prop-types';
+import { func, node } from 'prop-types';
 
 const SIZE = {
     small: 150,
@@ -76,7 +76,7 @@ export const Card = ({ onClick, content, ...rest }) => {
 Card.propTypes = {
     content: node,
     onClick: func,
-    title: string
+    title: node
 };
 
 Card.defaultProps = {

@@ -23,14 +23,17 @@ const mapButtonSize = size => {
 
 // https://github.com/uber/baseweb/blob/master/src/themes/creator.js#L123
 // https://github.com/uber/baseweb/blob/master/src/button/styled-components.js
-export const Button = ({ children, size, type, variant, ...rest }) => (
-    <BaseButton
-        size={mapButtonSize(size)}
-        kind={mapButtonVariantToKind(variant)}
-        {...rest}
-    >
-        {children}
-    </BaseButton>
+export const Button = React.forwardRef(
+    ({ children, size, type, variant, ...rest }, ref) => (
+        <BaseButton
+            size={mapButtonSize(size)}
+            kind={mapButtonVariantToKind(variant)}
+            ref={ref}
+            {...rest}
+        >
+            {children}
+        </BaseButton>
+    )
 );
 
 Button.propTypes = {
