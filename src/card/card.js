@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card as BaseCard, StyledBody } from 'baseui/card';
-import { func, node } from 'prop-types';
+import { func, node, string, arrayOf, oneOfType } from 'prop-types';
 
 const SIZE = {
     small: 150,
@@ -38,7 +38,7 @@ const Contents = {
 
 // https://baseweb.design/components/card/
 // https://github.com/uber/baseweb/tree/master/src/card
-export const Card = ({ onClick, content, ...rest }) => {
+export const Card = ({ onClick, headerImage, title, children, ...rest }) => {
     const Root = {
         style: ({ $theme }) => {
             const { breakpoints, colors } = $theme;
@@ -60,13 +60,15 @@ export const Card = ({ onClick, content, ...rest }) => {
         <BaseCard
             overrides={{ Root, Title, Contents }}
             onClick={onClick}
+            headerImage={headerImage}
+            title={title}
             {...rest}
         >
-            {content && (
+            {children && (
                 <StyledBody
                     $style={({ $theme }) => ({ color: $theme.colors.mono600 })}
                 >
-                    {content}
+                    {children}
                 </StyledBody>
             )}
         </BaseCard>
@@ -74,13 +76,14 @@ export const Card = ({ onClick, content, ...rest }) => {
 };
 
 Card.propTypes = {
-    content: node,
+    children: oneOfType([node, arrayOf(node)]),
+    headerImage: string.isRequired,
     onClick: func,
     title: node
 };
 
 Card.defaultProps = {
-    content: undefined,
+    children: undefined,
     onClick: undefined,
     title: undefined
 };
