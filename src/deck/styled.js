@@ -31,10 +31,10 @@ export const NextButton = styled('button', ({ $visible }) => ({
     right: '0'
 }));
 
-export const ListItem = styled('li', {
-    marginRight: '15px',
+export const ListItem = styled('li', ({ $theme }) => ({
+    marginRight: $theme.sizing.scale100,
     boxSizing: 'border-box'
-});
+}));
 
 export const ListContainer = styled('ul', {
     listStyleType: 'none',
