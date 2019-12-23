@@ -1,7 +1,13 @@
 export { NextMovieTheme } from './styles';
 export { Button } from './button';
 export { Card } from './card';
+export { Credit } from './credit';
 export { Deck } from './deck';
-export { Genre } from './genre';
+export { Content, Section } from './layout';
 export { Modal } from './modal';
+export { Navigation } from './navigation';
+export { PaginatedItems } from './paginated-items';
+export { ReviewItem } from './review-item';
 export { Search } from './search';
+export { Tag } from './tag';
+export { H2, H3, P1 } from './typography';
