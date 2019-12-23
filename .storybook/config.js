@@ -10,6 +10,7 @@ addDecorator(story => <GlobalStyles>{story()}</GlobalStyles>);
 addDecorator(withA11y);
 
 addParameters({
+    backgrounds: [{ name: 'primary', value: '#0e2431', default: 'true' }],
     viewport: {
         viewports: INITIAL_VIEWPORTS
     }

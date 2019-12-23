@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Button } from '../button';
-import { Modal } from '../modal';
+import { Button, KIND } from '../button';
+import { Modal, SIZE } from '../modal';
 
 export default {
     title: 'Modal'
@@ -12,7 +12,7 @@ const ModalWrapper = ({ size }) => {
 
     return (
         <>
-            <Button onClick={() => setIsOpen(true)} variant="secondary">
+            <Button onClick={() => setIsOpen(true)} kind={KIND.secondary}>
                 {`Open ${size} modal`}
             </Button>
             <Modal
@@ -29,12 +29,12 @@ const ModalWrapper = ({ size }) => {
 
 export const size = () => (
     <>
-        <ModalWrapper size="default" />
+        <ModalWrapper size={SIZE.default} />
         <br />
         <br />
-        <ModalWrapper size="full" />
+        <ModalWrapper size={SIZE.full} />
         <br />
         <br />
-        <ModalWrapper size="auto" />
+        <ModalWrapper size={SIZE.auto} />
     </>
 );

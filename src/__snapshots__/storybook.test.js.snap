@@ -21,6 +21,14 @@ Array [
     >
       Large
     </button>
+    <button
+      className="ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax bt az bo b1 b2 b3 b4 bu bv bw bx b9 ba bb bc bd"
+      data-baseweb="button"
+      disabled={false}
+      onClick={[Function]}
+    >
+      Larger
+    </button>
   </div>,
   <div
     className=""
@@ -70,24 +78,24 @@ Array [
     className=""
   >
     <div
-      className="bt bu bv bw b3 b1 b4 b2 bx ap by bz"
+      className="by bz c0 c1 b3 b1 b4 b2 c2 ap c3 c4"
       data-baseweb="card"
       onClick={[Function]}
     >
       <img
-        className="b3 b1 c0 c1"
+        className="b3 b1 c5 c6"
         src="https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"
       />
       <div
-        className="c2 c3 c4 c5"
+        className="c7 c8 c9 ca"
       >
         <h1
-          className="ax bn az bo c6 at au av c7 c8 c9 ca cb cc cd ce cf cg"
+          className="ax bt az bo cb at au av cc cd ce cf cg ch ci cj ck cl"
         >
           July 26
         </h1>
         <div
-          className="ch ci ax cj ck cl"
+          className="cm cn ax co cp cq"
         />
       </div>
     </div>
@@ -104,25 +112,25 @@ Array [
     className=""
   >
     <div
-      className="bt bu bv bw b3 b1 b4 b2 bx ap by bz"
+      className="by bz c0 c1 b3 b1 b4 b2 c2 ap c3 c4"
       data-baseweb="card"
       onClick={[Function]}
     >
       <img
-        className="b3 b1 c0 c1"
+        className="b3 b1 c5 c6"
         src="https://image.tmdb.org/t/p/w300/aQLygZOIKai6aaiBAeeKpIWO5nc.jpg"
       />
       <div
-        className="c2 c3 c4 c5"
+        className="c7 c8 c9 ca"
       >
         <div
-          className="ch ci ax cj ck cl"
+          className="cm cn ax co cp cq"
         >
           <div
-            className="ch cm ax cj ck cl"
+            className="cm cr ax co cp cq"
           >
             <div
-              className="c6 c5"
+              className="cb ca"
               data-baseweb="block"
             >
               Once Upon a Time in Hollywood
@@ -132,7 +140,7 @@ Array [
               data-baseweb="block"
             >
               <svg
-                className="cn co cp cq cr"
+                className="cs ct cu cv cw"
                 data-baseweb="icon"
                 viewBox="0 0 20 20"
               >
@@ -156,210 +164,333 @@ Array [
 ]
 `;
 
+exports[`Storyshots Credit Base 1`] = `
+Array [
+  <div
+    className=""
+  >
+    <div
+      className="b5 b6 cd cf cx"
+    >
+      <div
+        className="cy cz d0"
+      >
+        <div
+          aria-label={null}
+          className="d1 d2 d3 d4 d5 cs"
+          data-baseweb="avatar"
+          role={null}
+        >
+          <img
+            alt="Joaquin Phoenix"
+            className="d1 d2 d3 d4 d5 d6 d7 d8 d9"
+            onError={[Function]}
+            src="https://image.tmdb.org/t/p/w185/zixTWuMZ1D8EopgOhLVZ6Js2ux3.jpg"
+          />
+        </div>
+      </div>
+      <div
+        className="da cz db dc"
+      >
+        <div
+          className="cb ax cp bn bo"
+          data-baseweb="typo-p1"
+        >
+          Joaquin Phoenix
+        </div>
+        <div
+          className="cr ax az co cq"
+          data-baseweb="typo-label3"
+        >
+          Arthur Fleck / Joker
+        </div>
+      </div>
+    </div>
+    <div
+      className="b5 b6 cd cf cx"
+    >
+      <div
+        className="cy cz d0"
+      >
+        <div
+          aria-label={null}
+          className="d1 d2 d3 d4 d5 cs"
+          data-baseweb="avatar"
+          role={null}
+        >
+          <img
+            alt="Robert De Niro"
+            className="d1 d2 d3 d4 d5 d6 d7 d8 d9"
+            onError={[Function]}
+            src="https://image.tmdb.org/t/p/w185/8Bgdfv1oN9Mw0YuMHP6fw8KzDkc.jpg"
+          />
+        </div>
+      </div>
+      <div
+        className="da cz db dc"
+      >
+        <div
+          className="cb ax cp bn bo"
+          data-baseweb="typo-p1"
+        >
+          Robert De Niro
+        </div>
+        <div
+          className="cr ax az co cq"
+          data-baseweb="typo-label3"
+        >
+          Murray Franklin
+        </div>
+      </div>
+    </div>
+    <div
+      className="b5 b6 cd cf cx"
+    >
+      <div
+        className="cy cz d0"
+      >
+        <div
+          aria-label={null}
+          className="d1 d2 d3 d4 d5 cs"
+          data-baseweb="avatar"
+          role={null}
+        >
+          <img
+            alt="Zazie Beetz"
+            className="d1 d2 d3 d4 d5 d6 d7 d8 d9"
+            onError={[Function]}
+            src="https://image.tmdb.org/t/p/w185/sgxzT54GnvgeMnOZgpQQx9csAdd.jpg"
+          />
+        </div>
+      </div>
+      <div
+        className="da cz db dc"
+      >
+        <div
+          className="cb ax cp bn bo"
+          data-baseweb="typo-p1"
+        >
+          Zazie Beetz
+        </div>
+        <div
+          className="cr ax az co cq"
+          data-baseweb="typo-label3"
+        >
+          Sophie Dumond
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className=""
+  />,
+]
+`;
+
 exports[`Storyshots Deck Base 1`] = `
 Array [
   <div
     className=""
   >
     <div
-      className="cs ct cu cv"
+      className="dd de df dg"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
     >
       <ul
-        className="cw cx cy cs cz d0 d1 d2 d3 d4 d5"
+        className="dh di dj dd dk cx dl dm dn do dp"
       >
         <li
-          className="d6 d7"
+          className="dq d5"
         >
           <div
-            className="bt bu bv bw b3 b1 b4 b2 bx ap by bz"
+            className="by bz c0 c1 b3 b1 b4 b2 c2 ap c3 c4"
             data-baseweb="card"
             onClick={[Function]}
           >
             <img
-              className="b3 b1 c0 c1"
+              className="b3 b1 c5 c6"
               src="https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"
             />
             <div
-              className="c2 c3 c4 c5"
+              className="c7 c8 c9 ca"
             >
               <h1
-                className="ax bn az bo c6 at au av c7 c8 c9 ca cb cc cd ce cf cg"
+                className="ax bt az bo cb at au av cc cd ce cf cg ch ci cj ck cl"
               >
                 July 26
               </h1>
               <div
-                className="ch ci ax cj ck cl"
+                className="cm cn ax co cp cq"
               />
             </div>
           </div>
         </li>
         <li
-          className="d6 d7"
+          className="dq d5"
         >
           <div
-            className="bt bu bv bw b3 b1 b4 b2 bx ap by bz"
+            className="by bz c0 c1 b3 b1 b4 b2 c2 ap c3 c4"
             data-baseweb="card"
             onClick={[Function]}
           >
             <img
-              className="b3 b1 c0 c1"
+              className="b3 b1 c5 c6"
               src="https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"
             />
             <div
-              className="c2 c3 c4 c5"
+              className="c7 c8 c9 ca"
             >
               <h1
-                className="ax bn az bo c6 at au av c7 c8 c9 ca cb cc cd ce cf cg"
+                className="ax bt az bo cb at au av cc cd ce cf cg ch ci cj ck cl"
               >
                 July 26
               </h1>
               <div
-                className="ch ci ax cj ck cl"
+                className="cm cn ax co cp cq"
               />
             </div>
           </div>
         </li>
         <li
-          className="d6 d7"
+          className="dq d5"
         >
           <div
-            className="bt bu bv bw b3 b1 b4 b2 bx ap by bz"
+            className="by bz c0 c1 b3 b1 b4 b2 c2 ap c3 c4"
             data-baseweb="card"
             onClick={[Function]}
           >
             <img
-              className="b3 b1 c0 c1"
+              className="b3 b1 c5 c6"
               src="https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"
             />
             <div
-              className="c2 c3 c4 c5"
+              className="c7 c8 c9 ca"
             >
               <h1
-                className="ax bn az bo c6 at au av c7 c8 c9 ca cb cc cd ce cf cg"
+                className="ax bt az bo cb at au av cc cd ce cf cg ch ci cj ck cl"
               >
                 July 26
               </h1>
               <div
-                className="ch ci ax cj ck cl"
+                className="cm cn ax co cp cq"
               />
             </div>
           </div>
         </li>
         <li
-          className="d6 d7"
+          className="dq d5"
         >
           <div
-            className="bt bu bv bw b3 b1 b4 b2 bx ap by bz"
+            className="by bz c0 c1 b3 b1 b4 b2 c2 ap c3 c4"
             data-baseweb="card"
             onClick={[Function]}
           >
             <img
-              className="b3 b1 c0 c1"
+              className="b3 b1 c5 c6"
               src="https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"
             />
             <div
-              className="c2 c3 c4 c5"
+              className="c7 c8 c9 ca"
             >
               <h1
-                className="ax bn az bo c6 at au av c7 c8 c9 ca cb cc cd ce cf cg"
+                className="ax bt az bo cb at au av cc cd ce cf cg ch ci cj ck cl"
               >
                 July 26
               </h1>
               <div
-                className="ch ci ax cj ck cl"
+                className="cm cn ax co cp cq"
               />
             </div>
           </div>
         </li>
         <li
-          className="d6 d7"
+          className="dq d5"
         >
           <div
-            className="bt bu bv bw b3 b1 b4 b2 bx ap by bz"
+            className="by bz c0 c1 b3 b1 b4 b2 c2 ap c3 c4"
             data-baseweb="card"
             onClick={[Function]}
           >
             <img
-              className="b3 b1 c0 c1"
+              className="b3 b1 c5 c6"
               src="https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"
             />
             <div
-              className="c2 c3 c4 c5"
+              className="c7 c8 c9 ca"
             >
               <h1
-                className="ax bn az bo c6 at au av c7 c8 c9 ca cb cc cd ce cf cg"
+                className="ax bt az bo cb at au av cc cd ce cf cg ch ci cj ck cl"
               >
                 July 26
               </h1>
               <div
-                className="ch ci ax cj ck cl"
+                className="cm cn ax co cp cq"
               />
             </div>
           </div>
         </li>
         <li
-          className="d6 d7"
+          className="dq d5"
         >
           <div
-            className="bt bu bv bw b3 b1 b4 b2 bx ap by bz"
+            className="by bz c0 c1 b3 b1 b4 b2 c2 ap c3 c4"
             data-baseweb="card"
             onClick={[Function]}
           >
             <img
-              className="b3 b1 c0 c1"
+              className="b3 b1 c5 c6"
               src="https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"
             />
             <div
-              className="c2 c3 c4 c5"
+              className="c7 c8 c9 ca"
             >
               <h1
-                className="ax bn az bo c6 at au av c7 c8 c9 ca cb cc cd ce cf cg"
+                className="ax bt az bo cb at au av cc cd ce cf cg ch ci cj ck cl"
               >
                 July 26
               </h1>
               <div
-                className="ch ci ax cj ck cl"
+                className="cm cn ax co cp cq"
               />
             </div>
           </div>
         </li>
         <li
-          className="d6 d7"
+          className="dq d5"
         >
           <div
-            className="bt bu bv bw b3 b1 b4 b2 bx ap by bz"
+            className="by bz c0 c1 b3 b1 b4 b2 c2 ap c3 c4"
             data-baseweb="card"
             onClick={[Function]}
           >
             <img
-              className="b3 b1 c0 c1"
+              className="b3 b1 c5 c6"
               src="https://image.tmdb.org/t/p/w500/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg"
             />
             <div
-              className="c2 c3 c4 c5"
+              className="c7 c8 c9 ca"
             >
               <h1
-                className="ax bn az bo c6 at au av c7 c8 c9 ca cb cc cd ce cf cg"
+                className="ax bt az bo cb at au av cc cd ce cf cg ch ci cj ck cl"
               >
                 July 26
               </h1>
               <div
-                className="ch ci ax cj ck cl"
+                className="cm cn ax co cp cq"
               />
             </div>
           </div>
         </li>
       </ul>
       <button
-        className="d8 d9 da ap db dc dd de df dg dh di dj dk"
+        className="dr ds dt ap du dv dw dx bn dy dz e0 e1 e2"
         onClick={[Function]}
       >
         &lt;
       </button>
       <button
-        className="d8 d9 da ap db dc dd de df dg dh di dj dl"
+        className="dr ds dt ap du dv dw dx bn dy dz e0 e1 e3"
         onClick={[Function]}
       >
         &gt;
@@ -372,53 +503,72 @@ Array [
 ]
 `;
 
-exports[`Storyshots Genre Base 1`] = `
+exports[`Storyshots Layout Base 1`] = `
 Array [
   <div
     className=""
   >
-    <button
-      className="ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax cj ck cl dm dn do dp b5 b6 b7 b8 dq dr ds dt du"
-      data-baseweb="button"
-      disabled={false}
-      onClick={[Function]}
-      style={
-        Object {
-          "marginBottom": "6px",
-          "marginRight": "6px",
-        }
-      }
+    <div
+      className="e4 e5 e6 e7 e8"
     >
-      Action
-    </button>
-    <button
-      className="ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax cj ck cl dm dn do dp b5 b6 b7 b8 dq dr ds dt du"
-      data-baseweb="button"
-      disabled={false}
-      onClick={[Function]}
-      style={
-        Object {
-          "marginBottom": "6px",
-          "marginRight": "6px",
-        }
-      }
-    >
-      Thriller
-    </button>
-    <button
-      className="ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax cj ck cl dm dn do dp b5 b6 b7 b8 dq dr ds dt du"
-      data-baseweb="button"
-      disabled={false}
-      onClick={[Function]}
-      style={
-        Object {
-          "marginBottom": "6px",
-          "marginRight": "6px",
-        }
-      }
-    >
-      Drama
-    </button>
+      <p
+        className="ax ay cp b0 e9 ea eb ec ed"
+      >
+        Inside content
+      </p>
+      <div
+        className="cx ee dd e4 ef eg"
+      >
+        <div
+          className="da eh ei"
+        >
+          <h2
+            className="ax bt az bo ej ek cc ea el em en eo ep"
+          >
+            Section 1
+          </h2>
+        </div>
+        <div
+          className="eq eh er"
+        >
+          <div
+            className="es"
+          >
+            <p
+              className="ax ay cp b0 e9 ea eb ec ed"
+            >
+              Inside section 1
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="cx ee dd e4 ef eg"
+      >
+        <div
+          className="da eh ei"
+        >
+          <h2
+            className="ax bt az bo ej ek cc ea el em en eo ep"
+          >
+            Section 2
+          </h2>
+        </div>
+        <div
+          className="eq eh er"
+        >
+          <div
+            className="es"
+          >
+            <p
+              className="ax ay cp b0 e9 ea eb ec ed"
+            >
+              Inside section 2
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>,
   <div
     className=""
@@ -466,24 +616,450 @@ Array [
 ]
 `;
 
+exports[`Storyshots Navigation Base 1`] = `
+Array [
+  <div
+    className=""
+  >
+    <nav
+      className="ax ay cp b0 cx bq bp et eu ev ds e2 e3 dg ew ex ey ez"
+      data-baseweb="header-navigation"
+      role="navigation"
+    >
+      <ul
+        className="cx f0 f1 f2 e5 e6 f3 f4 f5 aw au at av"
+      >
+        <li
+          className="f6 e5"
+        >
+          <h1
+            className="f7 f8"
+            data-baseweb="block"
+          >
+            Next Movie
+          </h1>
+        </li>
+      </ul>
+      <ul
+        className="cx f0 f1 f9 e5 e6 fa ag f5 aw au at av"
+      />
+      <ul
+        className="cx f0 f1 f2 e5 e6 fb fc f5 aw au at av"
+      >
+        <div
+          className="e1 fd fe ff"
+          data-baseweb="block"
+        >
+          <div
+            className="ax co cp cq b9 cx dd"
+            data-baseweb="input"
+          >
+            <div
+              className="d5 cx dd fg bz fh an ao b3 b4 b1 b2 ax co cp cq b9 fi bj"
+              data-baseweb="base-input"
+            >
+              <div
+                className="cx af b7"
+              >
+                <svg
+                  className="cs fj fk fl fm"
+                  data-baseweb="icon"
+                  viewBox="0 0 24 24"
+                >
+                  <title>
+                    Search
+                  </title>
+                  <path
+                    clipRule="evenodd"
+                    d="M11 6C8.79086 6 7 7.79086 7 10C7 12.2091 8.79086 14 11 14C13.2091 14 15 12.2091 15 10C15 7.79086 13.2091 6 11 6ZM5 10C5 6.68629 7.68629 4 11 4C14.3137 4 17 6.68629 17 10C17 11.2958 16.5892 12.4957 15.8907 13.4765L19.7071 17.2929C20.0976 17.6834 20.0976 18.3166 19.7071 18.7071C19.3166 19.0976 18.6834 19.0976 18.2929 18.7071L14.4765 14.8907C13.4957 15.5892 12.2958 16 11 16C7.68629 16 5 13.3137 5 10Z"
+                    fillRule="evenodd"
+                  />
+                </svg>
+              </div>
+              <input
+                aria-describedby={null}
+                aria-invalid={false}
+                aria-label={null}
+                aria-labelledby={null}
+                aria-required={false}
+                autoComplete="on"
+                className="d5 ba ah ai ak dd c6 fn f7 b5 b6 fo fp ax co cp cq b9 fq fr"
+                disabled={false}
+                inputMode="text"
+                name=""
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyPress={[Function]}
+                onKeyUp={[Function]}
+                pattern={null}
+                placeholder="Search a movie by title"
+                required={false}
+                rows={null}
+                type="text"
+              />
+            </div>
+          </div>
+        </div>
+        <li
+          className="f6 e5"
+        >
+          <button
+            className="ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b0 b1 b2 b3 b4 b5 b6 b7 b8 be bf bg bh bi"
+            data-baseweb="button"
+            disabled={false}
+            onClick={[Function]}
+          >
+            Sign In
+          </button>
+        </li>
+        <li
+          className="f6 e5"
+        />
+      </ul>
+    </nav>
+  </div>,
+  <div
+    className=""
+  />,
+]
+`;
+
+exports[`Storyshots PaginatedItems Base 1`] = `
+Array [
+  <div
+    className=""
+  >
+    <div>
+      <div
+        className="by bz fs ba ft fu fv fw cx ee dk fx c8"
+      >
+        <div
+          className="dd fy fz f9"
+          role="rowgroup"
+        >
+          <div
+            className="cx af"
+            role="row"
+          >
+            <div
+              className="ax co cp cq f8 cx f9 ce cf cg cd"
+            >
+              <div
+                className="b5 b6 cd cf cx"
+              >
+                <div
+                  className="cy cz d0"
+                >
+                  <div
+                    aria-label={null}
+                    className="d1 d2 d3 d4 d5 cs"
+                    data-baseweb="avatar"
+                    role={null}
+                  >
+                    <img
+                      alt="Joaquin Phoenix"
+                      className="d1 d2 d3 d4 d5 d6 d7 d8 d9"
+                      onError={[Function]}
+                      src="https://image.tmdb.org/t/p/w185/zixTWuMZ1D8EopgOhLVZ6Js2ux3.jpg"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="da cz db dc"
+                >
+                  <div
+                    className="cb ax cp bn bo"
+                    data-baseweb="typo-p1"
+                  >
+                    Joaquin Phoenix
+                  </div>
+                  <div
+                    className="cr ax az co cq"
+                    data-baseweb="typo-label3"
+                  >
+                    Arthur Fleck / Joker
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="cx af"
+            role="row"
+          >
+            <div
+              className="ax co cp cq f8 cx f9 ce cf cg cd"
+            >
+              <div
+                className="b5 b6 cd cf cx"
+              >
+                <div
+                  className="cy cz d0"
+                >
+                  <div
+                    aria-label={null}
+                    className="d1 d2 d3 d4 d5 cs"
+                    data-baseweb="avatar"
+                    role={null}
+                  >
+                    <img
+                      alt="Robert De Niro"
+                      className="d1 d2 d3 d4 d5 d6 d7 d8 d9"
+                      onError={[Function]}
+                      src="https://image.tmdb.org/t/p/w185/8Bgdfv1oN9Mw0YuMHP6fw8KzDkc.jpg"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="da cz db dc"
+                >
+                  <div
+                    className="cb ax cp bn bo"
+                    data-baseweb="typo-p1"
+                  >
+                    Robert De Niro
+                  </div>
+                  <div
+                    className="cr ax az co cq"
+                    data-baseweb="typo-label3"
+                  >
+                    Murray Franklin
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="cx af"
+            role="row"
+          >
+            <div
+              className="ax co cp cq f8 cx f9 ce cf cg cd"
+            >
+              <div
+                className="b5 b6 cd cf cx"
+              >
+                <div
+                  className="cy cz d0"
+                >
+                  <div
+                    aria-label={null}
+                    className="d1 d2 d3 d4 d5 cs"
+                    data-baseweb="avatar"
+                    role={null}
+                  >
+                    <img
+                      alt="Zazie Beetz"
+                      className="d1 d2 d3 d4 d5 d6 d7 d8 d9"
+                      onError={[Function]}
+                      src="https://image.tmdb.org/t/p/w185/sgxzT54GnvgeMnOZgpQQx9csAdd.jpg"
+                    />
+                  </div>
+                </div>
+                <div
+                  className="da cz db dc"
+                >
+                  <div
+                    className="cb ax cp bn bo"
+                    data-baseweb="typo-p1"
+                  >
+                    Zazie Beetz
+                  </div>
+                  <div
+                    className="cr ax az co cq"
+                    data-baseweb="typo-label3"
+                  >
+                    Sophie Dumond
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="g0 g1 cx"
+    >
+      <div
+        aria-label="pagination"
+        className="cx af b9 ax ay az b0"
+        data-baseweb="pagination"
+      >
+        <button
+          className="ae af ag ah ai aj ak al am an ao ap aq g2 as at au av aw ax bn g3 bo b1 b2 b3 b4 bp bq br bs cr ba g4 g5 g6 g7 g8 g9"
+          data-baseweb="button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          &lt;
+        </button>
+        <div
+          className="df dc ga gb"
+        >
+          <div
+            aria-controls={null}
+            aria-expanded="false"
+            aria-haspopup="true"
+            className="ax ay cp b0 d5 df dd"
+            data-baseweb="select"
+            onClick={[Function]}
+          >
+            <div
+              className="b3 b1 b2 b4 d5 de dd cx gc ap fg bz gd an ao b9 ge ba gf"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+            >
+              <div
+                className="d5 df da eh gg cx af gh de gi gj fo cf"
+              >
+                <div
+                  aria-selected="true"
+                  className="b0 d5 gk dk c6 de gl gm gn df ce cg go b8 b9 ax ay az"
+                  disabled={false}
+                  value={1}
+                >
+                  1
+                </div>
+                <div
+                  aria-disabled={false}
+                  aria-expanded={false}
+                  aria-label={null}
+                  aria-labelledby={null}
+                  aria-required={null}
+                  className="df cs c6 ba dv gf d5 ak au aw at av ce cg cd cf gp gq"
+                  onBlur={[Function]}
+                  onFocus={[Function]}
+                  tabIndex={0}
+                />
+              </div>
+              <div
+                className="d5 df cx cz af gr b8"
+              >
+                <svg
+                  className="cs fj b9 gp gs ap"
+                  data-baseweb="icon"
+                  viewBox="0 0 24 24"
+                >
+                  <title>
+                    open
+                  </title>
+                  <path
+                    d="M12.7071 15.2929L17.1464 10.8536C17.4614 10.5386 17.2383 10 16.7929 10L7.20711 10C6.76165 10 6.53857 10.5386 6.85355 10.8536L11.2929 15.2929C11.6834 15.6834 12.3166 15.6834 12.7071 15.2929Z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <span
+          aria-label="page 1 of 2"
+          className="gt gu ba cr"
+        >
+          of 2
+        </span>
+        <button
+          className="ae af ag ah ai aj ak al am an ao ap aq g2 as at au av aw ax bn g3 bo b1 b2 b3 b4 bp bq br bs cr ba g4 g5 g6 g7 g8 g9"
+          data-baseweb="button"
+          disabled={false}
+          onClick={[Function]}
+        >
+          &gt;
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div
+    className=""
+  />,
+]
+`;
+
+exports[`Storyshots ReviewItem Review Item 1`] = `
+Array [
+  <div
+    className=""
+  >
+    <div
+      className="gv gw b5 g1 cd cf"
+    >
+      <div
+        className="cr ax az co cq"
+        data-baseweb="typo-label3"
+      >
+        Gimly
+      </div>
+      <p
+        className="ax ay cp b0 e9 ea eb ec ed"
+      >
+        I'm not here to explain 
+        <em>
+          Once Upon a Time In Hollywood
+        </em>
+        , just to enjoy it. 
+      </p>
+      <button
+        className="ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax bn az bo b1 b2 b3 b4 ce cg cd cf cr ba g4 gx g6 gy g8 gz"
+        data-baseweb="button"
+        disabled={false}
+        onClick={[Function]}
+      >
+        Read more
+      </button>
+    </div>
+    <div
+      className="et h0 b5 g1 cd cf"
+    >
+      <div
+        className="cr ax az co cq"
+        data-baseweb="typo-label3"
+      >
+        JPV852
+      </div>
+      <p
+        className="ax ay cp b0 e9 ea eb ec ed"
+      >
+        Well, the last 15-minutes were great, the first 2.5 hours on the other hand was... uneventful. I have an interest in Hollywood, more from the 1980s though, so some of the slower scenes still kept my attention, but there's no real plot and minimal character development. 
+      </p>
+      <button
+        className="ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax bn az bo b1 b2 b3 b4 ce cg cd cf cr ba g4 gx g6 gy g8 gz"
+        data-baseweb="button"
+        disabled={false}
+        onClick={[Function]}
+      >
+        Read more
+      </button>
+    </div>
+  </div>,
+  <div
+    className=""
+  />,
+]
+`;
+
 exports[`Storyshots Search Size 1`] = `
 Array [
   <div
     className=""
   >
     <div
-      className="ax cj ck cl b9 d0 cs"
+      className="ax co cp cq b9 cx dd"
       data-baseweb="input"
     >
       <div
-        className="d7 d0 cs dv bu dw an ao b3 b4 b1 b2 ax cj ck cl b9 dx bj"
+        className="d5 cx dd fg bz fh an ao b3 b4 b1 b2 ax co cp cq b9 fi bj"
         data-baseweb="base-input"
       >
         <div
-          className="d0 af b7"
+          className="cx af b7"
         >
           <svg
-            className="cn dy dz e0 e1"
+            className="cs fj fk fl fm"
             data-baseweb="icon"
             viewBox="0 0 24 24"
           >
@@ -504,7 +1080,7 @@ Array [
           aria-labelledby={null}
           aria-required={false}
           autoComplete="on"
-          className="d7 ba ah ai ak cs c1 e2 e3 b5 b6 e4 e5 ax cj ck cl b9 e6 e7"
+          className="d5 ba ah ai ak dd c6 fn f7 b5 b6 fo fp ax co cp cq b9 fq fr"
           disabled={false}
           inputMode="text"
           name=""
@@ -524,18 +1100,18 @@ Array [
     </div>
     <br />
     <div
-      className="ax ay ck b0 b9 d0 cs"
+      className="ax ay cp b0 b9 cx dd"
       data-baseweb="input"
     >
       <div
-        className="d7 d0 cs dv bu dw an ao b3 b4 b1 b2 ax ay ck b0 b9 dx bj"
+        className="d5 cx dd fg bz fh an ao b3 b4 b1 b2 ax ay cp b0 b9 fi bj"
         data-baseweb="base-input"
       >
         <div
-          className="d0 af b7"
+          className="cx af b7"
         >
           <svg
-            className="cn dy dz e0 e1"
+            className="cs fj fk fl fm"
             data-baseweb="icon"
             viewBox="0 0 24 24"
           >
@@ -556,7 +1132,7 @@ Array [
           aria-labelledby={null}
           aria-required={false}
           autoComplete="on"
-          className="d7 ba ah ai ak cs c1 e2 e3 e8 e9 ea eb ax ay ck b0 b9 e6 e7"
+          className="d5 ba ah ai ak dd c6 fn f7 gi gj h1 h2 ax ay cp b0 b9 fq fr"
           disabled={false}
           inputMode="text"
           name=""
@@ -576,18 +1152,18 @@ Array [
     </div>
     <br />
     <div
-      className="ax df ck bo b9 d0 cs"
+      className="ax bn cp bo b9 cx dd"
       data-baseweb="input"
     >
       <div
-        className="d7 d0 cs dv bu dw an ao b3 b4 b1 b2 ax df ck bo b9 dx bj"
+        className="d5 cx dd fg bz fh an ao b3 b4 b1 b2 ax bn cp bo b9 fi bj"
         data-baseweb="base-input"
       >
         <div
-          className="d0 af b7"
+          className="cx af b7"
         >
           <svg
-            className="cn dy dz e0 e1"
+            className="cs fj fk fl fm"
             data-baseweb="icon"
             viewBox="0 0 24 24"
           >
@@ -608,7 +1184,7 @@ Array [
           aria-labelledby={null}
           aria-required={false}
           autoComplete="on"
-          className="d7 ba ah ai ak cs c1 e2 e3 bp bq ec ed ax df ck bo b9 e6 e7"
+          className="d5 ba ah ai ak dd c6 fn f7 bu bv h3 h4 ax bn cp bo b9 fq fr"
           disabled={false}
           inputMode="text"
           name=""
@@ -626,6 +1202,93 @@ Array [
         />
       </div>
     </div>
+  </div>,
+  <div
+    className=""
+  />,
+]
+`;
+
+exports[`Storyshots Tag Base 1`] = `
+Array [
+  <div
+    className=""
+  >
+    <span
+      aria-label="button"
+      className="ax h5 az cq af h6 bz ah h7 h8 h9 ha d5 e9 hb ae gp gc hc hd he hf hg hh b7 b8 ak  "
+      data-baseweb="tag"
+      onClick={null}
+      onKeyDown={[Function]}
+      role="button"
+      tabIndex={null}
+    >
+      <span
+        className="de gm gl hi"
+        title="Action"
+      >
+        Action
+      </span>
+    </span>
+    <span
+      aria-label="button"
+      className="ax h5 az cq af h6 bz ah h7 h8 h9 ha d5 e9 hb ae gp gc hc hd he hf hg hh b7 b8 ak  "
+      data-baseweb="tag"
+      onClick={null}
+      onKeyDown={[Function]}
+      role="button"
+      tabIndex={null}
+    >
+      <span
+        className="de gm gl hi"
+        title="Thriller"
+      >
+        Thriller
+      </span>
+    </span>
+    <span
+      aria-label="button"
+      className="ax h5 az cq af h6 bz ah h7 h8 h9 ha d5 e9 hb ae gp gc hc hd he hf hg hh b7 b8 ak  "
+      data-baseweb="tag"
+      onClick={null}
+      onKeyDown={[Function]}
+      role="button"
+      tabIndex={null}
+    >
+      <span
+        className="de gm gl hi"
+        title="Drama"
+      >
+        Drama
+      </span>
+    </span>
+  </div>,
+  <div
+    className=""
+  />,
+]
+`;
+
+exports[`Storyshots Typography Size 1`] = `
+Array [
+  <div
+    className=""
+  >
+    <h2
+      className="ax bt az bo ej ek cc ea el em en eo ep"
+    >
+      H2: Overview
+    </h2>
+    <h3
+      className="ax bt g3 bo hj hk"
+    >
+      H3: Popular movies
+    </h3>
+    <p
+      className="ax ay cp b0 e9 ea eb ec ed"
+    >
+      P1: As the gang return to Jumanji to rescue one of their own, they discover that nothing is as they expect. The players will have to brave parts unknown and unexplored in order to escape the world’s most dangerous game.
+    </p>
   </div>,
   <div
     className=""

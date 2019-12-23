@@ -3,49 +3,41 @@ import {
     Modal as BaseModal,
     ModalHeader,
     ModalBody,
+    ModalFooter,
     SIZE,
     ROLE
 } from 'baseui/modal';
-import { string, node, arrayOf, oneOf, oneOfType } from 'prop-types';
+import { bool, node, arrayOf, oneOfType } from 'prop-types';
 
-const mapSize = size => {
-    if (size === 'full') {
-        return SIZE.full;
-    }
-    if (size === 'auto') {
-        return SIZE.auto;
-    }
-    return SIZE.default;
-};
+export { SIZE, ROLE };
 
 // https://baseweb.design/components/modal/
-export const Modal = ({ children, size, title, ...rest }) => (
-    <BaseModal
-        animate
-        closeable
-        size={mapSize(size)}
-        role={ROLE.dialog}
-        overrides={{
-            Dialog: {
-                style: ({ $theme }) => ({
-                    backgroundColor: $theme.colors.backgroundAlt
-                })
-            }
-        }}
-        {...rest}
-    >
-        <ModalHeader>{title}</ModalHeader>
+export const Modal = ({
+    animate,
+    closeable,
+    children,
+    header,
+    footer,
+    ...rest
+}) => (
+    <BaseModal animate closeable {...rest}>
+        {header && <ModalHeader>{header}</ModalHeader>}
         <ModalBody>{children}</ModalBody>
+        {footer && <ModalFooter>{footer}</ModalFooter>}
     </BaseModal>
 );
 
 Modal.propTypes = {
+    animate: bool,
+    closeable: bool,
     children: oneOfType([node, arrayOf(node)]).isRequired,
-    size: oneOf(['default', 'full', 'auto']),
-    title: string
+    footer: oneOfType([node, arrayOf(node)]),
+    header: oneOfType([node, arrayOf(node)])
 };
 
 Modal.defaultProps = {
-    size: 'default',
-    title: ''
+    animate: true,
+    closeable: true,
+    footer: undefined,
+    header: undefined
 };

@@ -1,5 +1,5 @@
 import { createTheme, lightThemePrimitives } from 'baseui/themes';
-// import {colors} from 'baseui/tokens';
+import { colors } from './next-movie-tokens';
 
 const nextMovieThemeOverrides = {
     name: 'next-movie-theme',
@@ -13,9 +13,9 @@ const nextMovieThemeOverrides = {
         buttonPrimarySpinnerForeground: '#fcb649',
         buttonPrimarySpinnerBackground: '#f59c14',
         background: '#0e2431',
-        backgroundAlt: '#e8d5b7',
-        colorPrimary: '#fc3a52',
-        colorSecondary: '#f9b248'
+        colorPrimary: colors.primary,
+        colorSecondary: colors.secondary,
+        colorTertiary: colors.tertiary
     }
 };
 

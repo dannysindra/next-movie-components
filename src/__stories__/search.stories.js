@@ -1,5 +1,5 @@
 import React from 'react';
-import { Search } from '../search';
+import { Search, SIZE } from '../search';
 
 export default {
     title: 'Search'
@@ -10,9 +10,9 @@ export const size = () => {
         <>
             <Search placeholder="Default" />
             <br />
-            <Search size="medium" placeholder="Medium" />
+            <Search size={SIZE.default} placeholder="Medium" />
             <br />
-            <Search size="large" placeholder="Large" />
+            <Search size={SIZE.large} placeholder="Large" />
         </>
     );
 };

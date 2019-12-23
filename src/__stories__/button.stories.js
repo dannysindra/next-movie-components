@@ -1,7 +1,7 @@
 import React from 'react';
 import { action } from '@storybook/addon-actions';
 
-import { Button } from '../button';
+import { Button, KIND, SIZE } from '../button';
 
 const actions = {
     onClick: action('clicked')
@@ -14,10 +14,10 @@ export default {
 export const variant = () => (
     <>
         <Button {...actions}>Default</Button>
-        <Button {...actions} variant="primary">
+        <Button {...actions} kind={KIND.primary}>
             Primary
         </Button>
-        <Button {...actions} variant="secondary">
+        <Button {...actions} kind={KIND.secondary}>
             Secondary
         </Button>
     </>
@@ -25,11 +25,14 @@ export const variant = () => (
 
 export const size = () => (
     <>
-        <Button {...actions} variant="secondary">
+        <Button {...actions} kind={KIND.secondary}>
             Default
         </Button>
-        <Button {...actions} variant="primary" size="large">
+        <Button {...actions} kind={KIND.primary} size={SIZE.default}>
             Large
+        </Button>
+        <Button {...actions} kind={KIND.tertiary} size={SIZE.large}>
+            Larger
         </Button>
     </>
 );

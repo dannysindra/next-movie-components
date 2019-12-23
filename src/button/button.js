@@ -1,36 +1,14 @@
 import React from 'react';
 import { Button as BaseButton, KIND, SIZE } from 'baseui/button';
-import { arrayOf, node, oneOf, oneOfType } from 'prop-types';
+import { arrayOf, string, node, oneOfType } from 'prop-types';
 
-const mapButtonVariantToKind = type => {
-    if (type === 'primary') {
-        return KIND.primary;
-    }
-    if (type === 'secondary') {
-        return KIND.secondary;
-    }
-
-    return KIND.minimal;
-};
-
-const mapButtonSize = size => {
-    if (size === 'large') {
-        return SIZE.large;
-    }
-
-    return SIZE.compact;
-};
+export { KIND, SIZE };
 
 // https://github.com/uber/baseweb/blob/master/src/themes/creator.js#L123
 // https://github.com/uber/baseweb/blob/master/src/button/styled-components.js
 export const Button = React.forwardRef(
-    ({ children, size, type, variant, ...rest }, ref) => (
-        <BaseButton
-            size={mapButtonSize(size)}
-            kind={mapButtonVariantToKind(variant)}
-            ref={ref}
-            {...rest}
-        >
+    ({ children, size, kind, ...rest }, ref) => (
+        <BaseButton size={size} kind={kind} ref={ref} {...rest}>
             {children}
         </BaseButton>
     )
@@ -38,13 +16,11 @@ export const Button = React.forwardRef(
 
 Button.propTypes = {
     children: oneOfType([arrayOf(node), node]).isRequired,
-    size: oneOf(['default', 'large']),
-    type: oneOf(['submit', 'button', 'reset']),
-    variant: oneOf(['default', 'primary', 'secondary'])
+    size: string,
+    kind: string
 };
 
 Button.defaultProps = {
-    size: 'default',
-    type: 'button',
-    variant: 'default'
+    size: SIZE.compact,
+    kind: KIND.minimal
 };
