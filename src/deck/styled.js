@@ -53,6 +53,5 @@ export const ListContainer = styled('ul', {
 export const Root = styled('div', {
     width: '100%',
     overflow: 'hidden',
-    position: 'relative',
-    zIndex: '1'
+    position: 'relative'
 });
