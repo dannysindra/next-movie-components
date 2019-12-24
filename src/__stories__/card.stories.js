@@ -2,7 +2,7 @@ import React from 'react';
 import { action } from '@storybook/addon-actions';
 import { Block } from 'baseui/block';
 import Show from 'baseui/icon/show';
-import { Card } from '../card';
+import { Card, CARD_KIND } from '../card';
 
 const data = {
     title: 'Once Upon a Time in Hollywood',
@@ -28,7 +28,11 @@ export const poster = () => (
 );
 
 export const Thumbnail = () => (
-    <Card onClick={data.onClick} headerImage={data.thumbnailImgUrl}>
+    <Card
+        onClick={data.onClick}
+        headerImage={data.thumbnailImgUrl}
+        kind={CARD_KIND.thumbnail}
+    >
         <Block color="white" marginBottom="6px">
             {data.title}
         </Block>

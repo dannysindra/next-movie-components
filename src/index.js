@@ -1,6 +1,6 @@
 export { NextMovieTheme } from './styles';
 export { Button } from './button';
-export { Card } from './card';
+export { Card, CARD_KIND } from './card';
 export { Credit } from './credit';
 export { Deck } from './deck';
 export { Content, Section } from './layout';
