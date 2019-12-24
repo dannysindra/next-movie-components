@@ -4,6 +4,7 @@ import {
     ModalHeader,
     ModalBody,
     ModalFooter,
+    FocusOnce,
     SIZE,
     ROLE
 } from 'baseui/modal';
@@ -21,7 +22,11 @@ export const Modal = ({
     ...rest
 }) => (
     <BaseModal animate closeable {...rest}>
-        {header && <ModalHeader>{header}</ModalHeader>}
+        {header && (
+            <FocusOnce>
+                <ModalHeader>{header}</ModalHeader>
+            </FocusOnce>
+        )}
         <ModalBody>{children}</ModalBody>
         {footer && <ModalFooter>{footer}</ModalFooter>}
     </BaseModal>
