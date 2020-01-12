@@ -33,7 +33,7 @@ export const Credit = ({ description, imageUrl, name, ...rest }) => (
             <Avatar
                 name={name}
                 size="scale1200"
-                src={isEmpty(imageUrl) ? null : imageUrl}
+                {...(!isEmpty(imageUrl) && { src: imageUrl })}
             />
         </AvatarContainer>
         <InfoContainer>
