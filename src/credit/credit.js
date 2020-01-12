@@ -46,5 +46,5 @@ Credit.propTypes = {
 };
 
 Credit.defaultProps = {
-    imageUrl: ''
+    imageUrl: undefined
 };
