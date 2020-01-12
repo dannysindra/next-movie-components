@@ -27,14 +27,16 @@ const InfoContainer = styled('div', ({ $theme }) => ({
     marginLeft: $theme.sizing.scale600
 }));
 
-export const Credit = ({ description, imageUrl, name, ...rest }) => (
+export const Credit = ({ id, description, imageUrl, name, ...rest }) => (
     <Root {...rest}>
         <AvatarContainer>
-            {isEmpty(imageUrl) ? (
-                <Avatar name={name} size="scale1200" />
-            ) : (
-                <Avatar name={name} size="scale1200" src={imageUrl} />
-            )}
+            <Avatar
+                /** Key required to handle bug on paginated items */
+                key={id}
+                name={name}
+                size="scale1200"
+                src={isEmpty(imageUrl) ? null : imageUrl}
+            />
         </AvatarContainer>
         <InfoContainer>
             <Paragraph1 as="div" color="white">
@@ -46,6 +48,7 @@ export const Credit = ({ description, imageUrl, name, ...rest }) => (
 );
 
 Credit.propTypes = {
+    id: string.isRequired,
     description: string.isRequired,
     imageUrl: string,
     name: string.isRequired
