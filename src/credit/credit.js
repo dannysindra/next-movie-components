@@ -30,11 +30,11 @@ const InfoContainer = styled('div', ({ $theme }) => ({
 export const Credit = ({ description, imageUrl, name, ...rest }) => (
     <Root {...rest}>
         <AvatarContainer>
-            <Avatar
-                name={name}
-                size="scale1200"
-                {...(!isEmpty(imageUrl) && { src: imageUrl })}
-            />
+            {isEmpty(imageUrl) ? (
+                <Avatar name={name} size="scale1200" />
+            ) : (
+                <Avatar name={name} size="scale1200" src={imageUrl} />
+            )}
         </AvatarContainer>
         <InfoContainer>
             <Paragraph1 as="div" color="white">
