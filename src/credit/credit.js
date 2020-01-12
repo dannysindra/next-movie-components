@@ -4,6 +4,8 @@ import { Avatar } from 'baseui/avatar';
 import { Label3, Paragraph1 } from 'baseui/typography';
 import { string } from 'prop-types';
 
+const isEmpty = entity => !entity || entity === '';
+
 const Root = styled('div', ({ $theme }) => ({
     paddingTop: $theme.sizing.scale200,
     paddingBottom: $theme.sizing.scale200,
@@ -28,7 +30,11 @@ const InfoContainer = styled('div', ({ $theme }) => ({
 export const Credit = ({ description, imageUrl, name, ...rest }) => (
     <Root {...rest}>
         <AvatarContainer>
-            <Avatar name={name} size="scale1200" src={imageUrl} />
+            <Avatar
+                name={name}
+                size="scale1200"
+                src={isEmpty(imageUrl) ? null : imageUrl}
+            />
         </AvatarContainer>
         <InfoContainer>
             <Paragraph1 as="div" color="white">
