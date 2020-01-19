@@ -125,7 +125,7 @@ export const Card = ({
 
 Card.propTypes = {
     children: oneOfType([node, arrayOf(node)]),
-    headerImage: string.isRequired,
+    headerImage: string,
     onClick: func,
     kind: string,
     title: node
@@ -133,6 +133,7 @@ Card.propTypes = {
 
 Card.defaultProps = {
     children: undefined,
+    headerImage: undefined,
     onClick: undefined,
     kind: CARD_KIND.poster,
     title: undefined
