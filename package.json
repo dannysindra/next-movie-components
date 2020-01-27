@@ -1,6 +1,6 @@
 {
   "name": "next-movie-components",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "React components for Next Movie website",
   "main": "dist/index.js",
   "module": "dist/index.js",

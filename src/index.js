@@ -7,6 +7,7 @@ export { Content, Section } from './layout';
 export { Modal } from './modal';
 export { Navigation } from './navigation';
 export { PaginatedItems } from './paginated-items';
+export { PopoverMenu } from './popover-menu';
 export { ReviewItem } from './review-item';
 export { Search } from './search';
 export { Tag } from './tag';
