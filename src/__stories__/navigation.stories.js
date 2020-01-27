@@ -1,13 +1,17 @@
 import React from 'react';
 import { Block } from 'baseui/block';
+import { PLACEMENT } from 'baseui/popover';
+import { StyledNavigationItem } from 'baseui/header-navigation';
 import { action } from '@storybook/addon-actions';
 
 import { Button, KIND } from '../button';
+import { PopoverMenu } from '../popover-menu';
 import { Navigation } from '../navigation';
 import { Search } from '../search';
 
 const actions = {
-    onLoginClick: action('onLoginClick')
+    onWatchlistClick: action('onWatchlistClick'),
+    onLogoutClick: action('onLogoutClick')
 };
 
 const NextMovieLink = () => (
@@ -21,7 +25,7 @@ const NextMovieLink = () => (
 );
 
 const Finder = () => (
-    <Block display={['none', 'none', 'block']} width="370px">
+    <Block width={['120px', '120px', '370px']}>
         <Search placeholder="Search a movie by title" />
     </Block>
 );
@@ -32,6 +36,11 @@ const LoginButton = () => (
     </Button>
 );
 
+const menuItems = [
+    { label: 'My watchlist', callback: actions.onWatchlistClick },
+    { label: 'Log out', callback: actions.onLogoutClick }
+];
+
 export default {
     title: 'Navigation'
 };
@@ -39,7 +48,34 @@ export default {
 export const base = () => (
     <Navigation
         logo={<NextMovieLink />}
-        finder={<Finder />}
-        control={<LoginButton />}
+        items={
+            <>
+                <StyledNavigationItem>
+                    <Finder />
+                </StyledNavigationItem>
+                <StyledNavigationItem>
+                    <LoginButton />
+                </StyledNavigationItem>
+            </>
+        }
+    />
+);
+
+export const authenticated = () => (
+    <Navigation
+        logo={<NextMovieLink />}
+        items={
+            <>
+                <StyledNavigationItem>
+                    <Finder />
+                </StyledNavigationItem>
+                <StyledNavigationItem>
+                    <PopoverMenu
+                        items={menuItems}
+                        placement={PLACEMENT.bottomRight}
+                    />
+                </StyledNavigationItem>
+            </>
+        }
     />
 );

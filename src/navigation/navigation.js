@@ -31,7 +31,7 @@ const Root = {
     }
 };
 
-export const Navigation = ({ control, finder, logo, ...rest }) => {
+export const Navigation = ({ items, logo, ...rest }) => {
     return (
         <BaseHeaderNavigation overrides={{ Root }} {...rest}>
             <StyledNavigationList $align={ALIGN.left}>
@@ -39,8 +39,7 @@ export const Navigation = ({ control, finder, logo, ...rest }) => {
             </StyledNavigationList>
             <StyledNavigationList $align={ALIGN.center} />
             <StyledNavigationList $align={ALIGN.right}>
-                {finder}
-                <StyledNavigationItem>{control}</StyledNavigationItem>
+                {items}
                 <StyledNavigationItem />
             </StyledNavigationList>
         </BaseHeaderNavigation>
@@ -49,6 +48,5 @@ export const Navigation = ({ control, finder, logo, ...rest }) => {
 
 Navigation.propTypes = {
     logo: node.isRequired,
-    finder: node.isRequired,
-    control: oneOfType([node, arrayOf(node)]).isRequired
+    items: oneOfType([node, arrayOf(node)]).isRequired
 };
