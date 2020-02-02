@@ -5,7 +5,6 @@ export { Credit } from './credit';
 export { Deck } from './deck';
 export { Content, Section } from './layout';
 export { Modal } from './modal';
-export { Navigation } from './navigation';
 export { PaginatedItems } from './paginated-items';
 export { PopoverMenu } from './popover-menu';
 export { ReviewItem } from './review-item';

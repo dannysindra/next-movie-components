@@ -1,6 +1,6 @@
 {
   "name": "next-movie-components",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "React components for Next Movie website",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -10,12 +10,12 @@
   ],
   "scripts": {
     "lint": "eslint .",
-    "test": "jest",
+    "test": "jest && npm run build-storybook",
     "update-snapshot": "jest --updateSnapshot",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -c .storybook -o docs",
     "transpile": "rm -rf dist && mkdir dist && babel ./src -d dist --ignore ./src/__snapshots__,./src/__stories__,./src/__tests__,./src/storybook.test.js",
-    "prepublishOnly": "npm run build-storybook && npm run transpile"
+    "prepublishOnly": "npm run transpile"
   },
   "repository": {
     "type": "git",

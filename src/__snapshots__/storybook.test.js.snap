@@ -616,266 +616,6 @@ Array [
 ]
 `;
 
-exports[`Storyshots Navigation Authenticated 1`] = `
-Array [
-  <div
-    className=""
-  >
-    <nav
-      className="ax ay cr b0 d1 bq bp ew ex ey dv e5 e6 ez f0 f1 f2 f3"
-      data-baseweb="header-navigation"
-      role="navigation"
-    >
-      <ul
-        className="d1 f4 f5 f6 e8 e9 f7 f8 f9 aw au at av"
-      >
-        <li
-          className="fa e8"
-        >
-          <h1
-            className="fb fc"
-            data-baseweb="block"
-          >
-            Next Movie
-          </h1>
-        </li>
-      </ul>
-      <ul
-        className="d1 f4 f5 fd e8 e9 fe ag f9 aw au at av"
-      />
-      <ul
-        className="d1 f4 f5 f6 e8 e9 ff fg f9 aw au at av"
-      >
-        <li
-          className="fa e8"
-        >
-          <div
-            className="fh fi fj"
-            data-baseweb="block"
-          >
-            <div
-              className="ax cq cr cs b9 d1 dh"
-              data-baseweb="input"
-            >
-              <div
-                className="d9 d1 dh fk bz fl an ao b3 b4 b1 b2 ax cq cr cs b9 fm bj"
-                data-baseweb="base-input"
-              >
-                <div
-                  className="d1 af b7"
-                >
-                  <svg
-                    className="cw fn fo fp fq"
-                    data-baseweb="icon"
-                    viewBox="0 0 24 24"
-                  >
-                    <title>
-                      Search
-                    </title>
-                    <path
-                      clipRule="evenodd"
-                      d="M11 6C8.79086 6 7 7.79086 7 10C7 12.2091 8.79086 14 11 14C13.2091 14 15 12.2091 15 10C15 7.79086 13.2091 6 11 6ZM5 10C5 6.68629 7.68629 4 11 4C14.3137 4 17 6.68629 17 10C17 11.2958 16.5892 12.4957 15.8907 13.4765L19.7071 17.2929C20.0976 17.6834 20.0976 18.3166 19.7071 18.7071C19.3166 19.0976 18.6834 19.0976 18.2929 18.7071L14.4765 14.8907C13.4957 15.5892 12.2958 16 11 16C7.68629 16 5 13.3137 5 10Z"
-                      fillRule="evenodd"
-                    />
-                  </svg>
-                </div>
-                <input
-                  aria-describedby={null}
-                  aria-invalid={false}
-                  aria-label={null}
-                  aria-labelledby={null}
-                  aria-required={false}
-                  autoComplete="on"
-                  className="d9 ba ah ai ak dh c6 fr fb b5 b6 fs ft ax cq cr cs b9 fu fv"
-                  disabled={false}
-                  inputMode="text"
-                  name=""
-                  onBlur={[Function]}
-                  onChange={[Function]}
-                  onFocus={[Function]}
-                  onKeyDown={[Function]}
-                  onKeyPress={[Function]}
-                  onKeyUp={[Function]}
-                  pattern={null}
-                  placeholder="Search a movie by title"
-                  required={false}
-                  rows={null}
-                  type="text"
-                />
-              </div>
-            </div>
-          </div>
-        </li>
-        <li
-          className="fa e8"
-        >
-          <button
-            aria-controls={null}
-            aria-expanded="false"
-            aria-haspopup="true"
-            className="da af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b0 b1 b2 b3 b4 cg ci b7 ch cd ba fw fx fy fz"
-            data-baseweb="button"
-            disabled={false}
-            onClick={[Function]}
-          >
-            <svg
-              className="cw fn fo fz g0"
-              data-baseweb="icon"
-              viewBox="0 0 24 24"
-            >
-              <title>
-                Menu
-              </title>
-              <rect
-                height="2"
-                rx="1"
-                width="16"
-                x="4"
-                y="11"
-              />
-              <rect
-                height="2"
-                rx="1"
-                width="16"
-                x="4"
-                y="5"
-              />
-              <rect
-                height="2"
-                rx="1"
-                width="16"
-                x="4"
-                y="17"
-              />
-            </svg>
-          </button>
-        </li>
-        <li
-          className="fa e8"
-        />
-      </ul>
-    </nav>
-  </div>,
-  <div
-    className=""
-  />,
-]
-`;
-
-exports[`Storyshots Navigation Base 1`] = `
-Array [
-  <div
-    className=""
-  >
-    <nav
-      className="ax ay cr b0 d1 bq bp ew ex ey dv e5 e6 ez f0 f1 f2 f3"
-      data-baseweb="header-navigation"
-      role="navigation"
-    >
-      <ul
-        className="d1 f4 f5 f6 e8 e9 f7 f8 f9 aw au at av"
-      >
-        <li
-          className="fa e8"
-        >
-          <h1
-            className="fb fc"
-            data-baseweb="block"
-          >
-            Next Movie
-          </h1>
-        </li>
-      </ul>
-      <ul
-        className="d1 f4 f5 fd e8 e9 fe ag f9 aw au at av"
-      />
-      <ul
-        className="d1 f4 f5 f6 e8 e9 ff fg f9 aw au at av"
-      >
-        <li
-          className="fa e8"
-        >
-          <div
-            className="fh fi fj"
-            data-baseweb="block"
-          >
-            <div
-              className="ax cq cr cs b9 d1 dh"
-              data-baseweb="input"
-            >
-              <div
-                className="d9 d1 dh fk bz fl an ao b3 b4 b1 b2 ax cq cr cs b9 fm bj"
-                data-baseweb="base-input"
-              >
-                <div
-                  className="d1 af b7"
-                >
-                  <svg
-                    className="cw fn fo fp fq"
-                    data-baseweb="icon"
-                    viewBox="0 0 24 24"
-                  >
-                    <title>
-                      Search
-                    </title>
-                    <path
-                      clipRule="evenodd"
-                      d="M11 6C8.79086 6 7 7.79086 7 10C7 12.2091 8.79086 14 11 14C13.2091 14 15 12.2091 15 10C15 7.79086 13.2091 6 11 6ZM5 10C5 6.68629 7.68629 4 11 4C14.3137 4 17 6.68629 17 10C17 11.2958 16.5892 12.4957 15.8907 13.4765L19.7071 17.2929C20.0976 17.6834 20.0976 18.3166 19.7071 18.7071C19.3166 19.0976 18.6834 19.0976 18.2929 18.7071L14.4765 14.8907C13.4957 15.5892 12.2958 16 11 16C7.68629 16 5 13.3137 5 10Z"
-                      fillRule="evenodd"
-                    />
-                  </svg>
-                </div>
-                <input
-                  aria-describedby={null}
-                  aria-invalid={false}
-                  aria-label={null}
-                  aria-labelledby={null}
-                  aria-required={false}
-                  autoComplete="on"
-                  className="d9 ba ah ai ak dh c6 fr fb b5 b6 fs ft ax cq cr cs b9 fu fv"
-                  disabled={false}
-                  inputMode="text"
-                  name=""
-                  onBlur={[Function]}
-                  onChange={[Function]}
-                  onFocus={[Function]}
-                  onKeyDown={[Function]}
-                  onKeyPress={[Function]}
-                  onKeyUp={[Function]}
-                  pattern={null}
-                  placeholder="Search a movie by title"
-                  required={false}
-                  rows={null}
-                  type="text"
-                />
-              </div>
-            </div>
-          </div>
-        </li>
-        <li
-          className="fa e8"
-        >
-          <button
-            className="ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b0 b1 b2 b3 b4 b5 b6 b7 b8 be bf bg bh bi"
-            data-baseweb="button"
-            disabled={false}
-            onClick={[Function]}
-          >
-            Sign In
-          </button>
-        </li>
-        <li
-          className="fa e8"
-        />
-      </ul>
-    </nav>
-  </div>,
-  <div
-    className=""
-  />,
-]
-`;
-
 exports[`Storyshots PaginatedItems Base 1`] = `
 Array [
   <div
@@ -883,10 +623,10 @@ Array [
   >
     <div>
       <div
-        className="by bz g1 ba g2 g3 g4 g5 d1 eh dn g6 ca"
+        className="by bz ew ba ex ey ez f0 d1 eh dn f1 ca"
       >
         <div
-          className="dh g7 g8 fd"
+          className="dh f2 f3 f4"
           role="rowgroup"
         >
           <div
@@ -894,7 +634,7 @@ Array [
             role="row"
           >
             <div
-              className="ax cq cr cs fc d1 fd cg ch ci cf"
+              className="ax cq cr cs f5 d1 f4 cg ch ci cf"
             >
               <div
                 className="b5 b6 cf ch d1"
@@ -940,7 +680,7 @@ Array [
             role="row"
           >
             <div
-              className="ax cq cr cs fc d1 fd cg ch ci cf"
+              className="ax cq cr cs f5 d1 f4 cg ch ci cf"
             >
               <div
                 className="b5 b6 cf ch d1"
@@ -986,7 +726,7 @@ Array [
             role="row"
           >
             <div
-              className="ax cq cr cs fc d1 fd cg ch ci cf"
+              className="ax cq cr cs f5 d1 f4 cg ch ci cf"
             >
               <div
                 className="b5 b6 cf ch d1"
@@ -1031,7 +771,7 @@ Array [
       </div>
     </div>
     <div
-      className="g9 ga d1"
+      className="f6 f7 d1"
     >
       <div
         aria-label="pagination"
@@ -1039,7 +779,7 @@ Array [
         data-baseweb="pagination"
       >
         <button
-          className="ae af ag ah ai aj ak al am an ao ap aq gb as at au av aw ax bn gc bo b1 b2 b3 b4 bp bq br bs cv ba fw gd fx ge fy gf"
+          className="ae af ag ah ai aj ak al am an ao ap aq f8 as at au av aw ax bn f9 bo b1 b2 b3 b4 bp bq br bs cv ba fa fb fc fd fe ff"
           data-baseweb="button"
           disabled={false}
           onClick={[Function]}
@@ -1047,7 +787,7 @@ Array [
           &lt;
         </button>
         <div
-          className="dj dg gg gh"
+          className="dj dg fg fh"
         >
           <div
             aria-controls={null}
@@ -1058,7 +798,7 @@ Array [
             onClick={[Function]}
           >
             <div
-              className="b3 b1 b2 b4 d9 di dh d1 gi ap fk bz gj an ao b9 gk ba gl"
+              className="b3 b1 b2 b4 d9 di dh d1 fi ap fj bz fk an ao b9 fl ba fm"
               onClick={[Function]}
               onKeyDown={[Function]}
               onTouchEnd={[Function]}
@@ -1066,11 +806,11 @@ Array [
               onTouchStart={[Function]}
             >
               <div
-                className="d9 dj de ek gm d1 af gn di go gp fs ch"
+                className="d9 dj de ek fn d1 af fo di fp fq fr ch"
               >
                 <div
                   aria-selected="true"
-                  className="b0 d9 gq dn c6 di gr gs gt dj cg ci gu b8 b9 ax ay az"
+                  className="b0 d9 fs dn c6 di ft fu fv dj cg ci fw b8 b9 ax ay az"
                   disabled={false}
                   value={1}
                 >
@@ -1082,17 +822,17 @@ Array [
                   aria-label={null}
                   aria-labelledby={null}
                   aria-required={null}
-                  className="dj cw c6 ba dy gl d9 ak au aw at av cg ci cf ch gv gw"
+                  className="dj cw c6 ba dy fm d9 ak au aw at av cg ci cf ch fx fy"
                   onBlur={[Function]}
                   onFocus={[Function]}
                   tabIndex={0}
                 />
               </div>
               <div
-                className="d9 dj d1 d3 af gx b8"
+                className="d9 dj d1 d3 af fz b8"
               >
                 <svg
-                  className="cw fn b9 gv gy ap"
+                  className="cw g0 b9 fx g1 ap"
                   data-baseweb="icon"
                   viewBox="0 0 24 24"
                 >
@@ -1109,12 +849,12 @@ Array [
         </div>
         <span
           aria-label="page 1 of 2"
-          className="gz h0 ba cv"
+          className="g2 g3 ba cv"
         >
           of 2
         </span>
         <button
-          className="ae af ag ah ai aj ak al am an ao ap aq gb as at au av aw ax bn gc bo b1 b2 b3 b4 bp bq br bs cv ba fw gd fx ge fy gf"
+          className="ae af ag ah ai aj ak al am an ao ap aq f8 as at au av aw ax bn f9 bo b1 b2 b3 b4 bp bq br bs cv ba fa fb fc fd fe ff"
           data-baseweb="button"
           disabled={false}
           onClick={[Function]}
@@ -1136,20 +876,20 @@ Array [
     className=""
   >
     <div
-      className="d1 fg h1"
+      className="d1 g4 g5"
       data-baseweb="block"
     >
       <button
         aria-controls={null}
         aria-expanded="false"
         aria-haspopup="true"
-        className="da af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b0 b1 b2 b3 b4 cg ci b7 ch cd ba fw fx fy fz"
+        className="da af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax ay az b0 b1 b2 b3 b4 cg ci b7 ch cd ba fa fc fe g6"
         data-baseweb="button"
         disabled={false}
         onClick={[Function]}
       >
         <svg
-          className="cw fn fo fz g0"
+          className="cw g0 g7 g6 g8"
           data-baseweb="icon"
           viewBox="0 0 24 24"
         >
@@ -1193,7 +933,7 @@ Array [
     className=""
   >
     <div
-      className="h2 h3 b5 ga cf ch"
+      className="g9 ga b5 f7 cf ch"
     >
       <div
         className="cv ax az cq cs"
@@ -1211,7 +951,7 @@ Array [
         , just to enjoy it. 
       </p>
       <button
-        className="ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax bn az bo b1 b2 b3 b4 cg ci cf ch cv ba fw h4 fx h5 fy h6"
+        className="ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax bn az bo b1 b2 b3 b4 cg ci cf ch cv ba fa gb fc gc fe gd"
         data-baseweb="button"
         disabled={false}
         onClick={[Function]}
@@ -1220,7 +960,7 @@ Array [
       </button>
     </div>
     <div
-      className="ew h7 b5 ga cf ch"
+      className="ge gf b5 f7 cf ch"
     >
       <div
         className="cv ax az cq cs"
@@ -1234,7 +974,7 @@ Array [
         Well, the last 15-minutes were great, the first 2.5 hours on the other hand was... uneventful. I have an interest in Hollywood, more from the 1980s though, so some of the slower scenes still kept my attention, but there's no real plot and minimal character development. 
       </p>
       <button
-        className="ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax bn az bo b1 b2 b3 b4 cg ci cf ch cv ba fw h4 fx h5 fy h6"
+        className="ae af ag ah ai aj ak al am an ao ap aq ar as at au av aw ax bn az bo b1 b2 b3 b4 cg ci cf ch cv ba fa gb fc gc fe gd"
         data-baseweb="button"
         disabled={false}
         onClick={[Function]}
@@ -1259,14 +999,14 @@ Array [
       data-baseweb="input"
     >
       <div
-        className="d9 d1 dh fk bz fl an ao b3 b4 b1 b2 ax cq cr cs b9 fm bj"
+        className="d9 d1 dh fj bz gg an ao b3 b4 b1 b2 ax cq cr cs b9 gh bj"
         data-baseweb="base-input"
       >
         <div
           className="d1 af b7"
         >
           <svg
-            className="cw fn fo fp fq"
+            className="cw g0 g7 gi gj"
             data-baseweb="icon"
             viewBox="0 0 24 24"
           >
@@ -1287,7 +1027,7 @@ Array [
           aria-labelledby={null}
           aria-required={false}
           autoComplete="on"
-          className="d9 ba ah ai ak dh c6 fr fb b5 b6 fs ft ax cq cr cs b9 fu fv"
+          className="d9 ba ah ai ak dh c6 gk gl b5 b6 fr gm ax cq cr cs b9 gn go"
           disabled={false}
           inputMode="text"
           name=""
@@ -1311,14 +1051,14 @@ Array [
       data-baseweb="input"
     >
       <div
-        className="d9 d1 dh fk bz fl an ao b3 b4 b1 b2 ax ay cr b0 b9 fm bj"
+        className="d9 d1 dh fj bz gg an ao b3 b4 b1 b2 ax ay cr b0 b9 gh bj"
         data-baseweb="base-input"
       >
         <div
           className="d1 af b7"
         >
           <svg
-            className="cw fn fo fp fq"
+            className="cw g0 g7 gi gj"
             data-baseweb="icon"
             viewBox="0 0 24 24"
           >
@@ -1339,7 +1079,7 @@ Array [
           aria-labelledby={null}
           aria-required={false}
           autoComplete="on"
-          className="d9 ba ah ai ak dh c6 fr fb go gp h8 h9 ax ay cr b0 b9 fu fv"
+          className="d9 ba ah ai ak dh c6 gk gl fp fq gp gq ax ay cr b0 b9 gn go"
           disabled={false}
           inputMode="text"
           name=""
@@ -1363,14 +1103,14 @@ Array [
       data-baseweb="input"
     >
       <div
-        className="d9 d1 dh fk bz fl an ao b3 b4 b1 b2 ax bn cr bo b9 fm bj"
+        className="d9 d1 dh fj bz gg an ao b3 b4 b1 b2 ax bn cr bo b9 gh bj"
         data-baseweb="base-input"
       >
         <div
           className="d1 af b7"
         >
           <svg
-            className="cw fn fo fp fq"
+            className="cw g0 g7 gi gj"
             data-baseweb="icon"
             viewBox="0 0 24 24"
           >
@@ -1391,7 +1131,7 @@ Array [
           aria-labelledby={null}
           aria-required={false}
           autoComplete="on"
-          className="d9 ba ah ai ak dh c6 fr fb bu bv ha hb ax bn cr bo b9 fu fv"
+          className="d9 ba ah ai ak dh c6 gk gl bu bv gr gs ax bn cr bo b9 gn go"
           disabled={false}
           inputMode="text"
           name=""
@@ -1423,7 +1163,7 @@ Array [
   >
     <span
       aria-label="button"
-      className="ax hc az cs af hd bz ah he hf hg hh d9 ec hi ae gv gi hj hk hl hm hn ho b7 b8 ak  "
+      className="ax gt az cs af gu bz ah gv gw gx gy d9 ec gz ae fx fi h0 h1 h2 h3 h4 h5 b7 b8 ak  "
       data-baseweb="tag"
       onClick={null}
       onKeyDown={[Function]}
@@ -1431,7 +1171,7 @@ Array [
       tabIndex={null}
     >
       <span
-        className="di gs gr hp"
+        className="di fu ft h6"
         title="Action"
       >
         Action
@@ -1439,7 +1179,7 @@ Array [
     </span>
     <span
       aria-label="button"
-      className="ax hc az cs af hd bz ah he hf hg hh d9 ec hi ae gv gi hj hk hl hm hn ho b7 b8 ak  "
+      className="ax gt az cs af gu bz ah gv gw gx gy d9 ec gz ae fx fi h0 h1 h2 h3 h4 h5 b7 b8 ak  "
       data-baseweb="tag"
       onClick={null}
       onKeyDown={[Function]}
@@ -1447,7 +1187,7 @@ Array [
       tabIndex={null}
     >
       <span
-        className="di gs gr hp"
+        className="di fu ft h6"
         title="Thriller"
       >
         Thriller
@@ -1455,7 +1195,7 @@ Array [
     </span>
     <span
       aria-label="button"
-      className="ax hc az cs af hd bz ah he hf hg hh d9 ec hi ae gv gi hj hk hl hm hn ho b7 b8 ak  "
+      className="ax gt az cs af gu bz ah gv gw gx gy d9 ec gz ae fx fi h0 h1 h2 h3 h4 h5 b7 b8 ak  "
       data-baseweb="tag"
       onClick={null}
       onKeyDown={[Function]}
@@ -1463,7 +1203,7 @@ Array [
       tabIndex={null}
     >
       <span
-        className="di gs gr hp"
+        className="di fu ft h6"
         title="Drama"
       >
         Drama
@@ -1487,7 +1227,7 @@ Array [
       H2: Overview
     </h2>
     <h3
-      className="ax bt gc bo hq hr"
+      className="ax bt f9 bo h7 h8"
     >
       H3: Popular movies
     </h3>
