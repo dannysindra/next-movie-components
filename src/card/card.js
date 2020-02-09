@@ -79,7 +79,11 @@ export const Card = ({
             return {
                 ...(onClick && { cursor: 'pointer' }),
                 backgroundColor: colors.primary,
-                borderWidth: '0 0 1px 0',
+                borderTopWidth: '0',
+                borderRightWidth: '0',
+                borderBottomWidth: '1px',
+                borderLeftWidth: '0',
+                borderBottomColor: colors.primary,
                 width: `${size.small.width}px`,
                 [MQ_MEDIUM_UP]: {
                     width: `${size.default.width}px`
