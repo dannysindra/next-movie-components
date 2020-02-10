@@ -53,9 +53,9 @@ const Title = {
 const Contents = {
     style: ({ $theme }) => ({
         marginTop: $theme.sizing.scale400,
-        marginRight: $theme.sizing.scale700,
+        marginRight: $theme.sizing.scale600,
         marginBottom: $theme.sizing.scale200,
-        marginLeft: $theme.sizing.scale700
+        marginLeft: $theme.sizing.scale600
     })
 };
 
